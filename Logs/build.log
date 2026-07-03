@@ -1,0 +1,591 @@
+Mock Version: 6.7
+Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'f8fe1f25e87c4c3d813924e615f46bd5', '-D', '/var/lib/mock/alma+epel-10-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/yajl.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739404800
+Wrote: /builddir/build/SRPMS/yajl-2.1.0-25.el10.src.rpm
+Child return code was: 0
+Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'da5f2fba855d44dbb7a34508de6a2ac9', '-D', '/var/lib/mock/alma+epel-10-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/yajl.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739404800
+Wrote: /builddir/build/SRPMS/yajl-2.1.0-25.el10.src.rpm
+Child return code was: 0
+Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '59752a2594cb48859ae6524db3b8a1d9', '-D', '/var/lib/mock/alma+epel-10-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bb --noclean --target x86_64 --nodeps /builddir/build/SPECS/yajl.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739404800
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.3ZtzCG
++ umask 022
++ cd /builddir/build/BUILD
++ cd /builddir/build/BUILD
++ rm -rf yajl-2.1.0
++ /usr/lib/rpm/rpmuncompress -x /builddir/build/SOURCES/2.1.0.tar.gz
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd yajl-2.1.0
++ rm -rf /builddir/build/BUILD/yajl-2.1.0-SPECPARTS
++ /usr/bin/mkdir -p /builddir/build/BUILD/yajl-2.1.0-SPECPARTS
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ /usr/bin/git init -q
++ /usr/bin/git config user.name rpm-build
++ /usr/bin/git config user.email '<rpm-build>'
++ /usr/bin/git config gc.auto 0
++ /usr/bin/git add --force .
++ /usr/bin/git commit -q --allow-empty -a --author 'rpm-build <rpm-build>' -m 'yajl-2.1.0 base'
++ /usr/bin/git checkout --track -b rpm-build
+Switched to a new branch 'rpm-build'
+branch 'rpm-build' set up to track 'master'.
++ /usr/lib/rpm/rpmuncompress /builddir/build/SOURCES/yajl-2.1.0-pkgconfig-location.patch
++ /usr/bin/git apply --index --reject -
+Checking patch src/CMakeLists.txt...
+Applied patch src/CMakeLists.txt cleanly.
++ /usr/bin/git commit -q -m yajl-2.1.0-pkgconfig-location.patch --author 'rpm-build <rpm-build>'
++ /usr/lib/rpm/rpmuncompress /builddir/build/SOURCES/yajl-2.1.0-pkgconfig-includedir.patch
++ /usr/bin/git apply --index --reject -
+Checking patch src/yajl.pc.cmake...
+Applied patch src/yajl.pc.cmake cleanly.
++ /usr/bin/git commit -q -m yajl-2.1.0-pkgconfig-includedir.patch --author 'rpm-build <rpm-build>'
++ /usr/lib/rpm/rpmuncompress /builddir/build/SOURCES/yajl-2.1.0-test-location.patch
++ /usr/bin/git apply --index --reject -
+Checking patch test/api/run_tests.sh...
+Checking patch test/parsing/run_tests.sh...
+Applied patch test/api/run_tests.sh cleanly.
+Applied patch test/parsing/run_tests.sh cleanly.
++ /usr/bin/git commit -q -m yajl-2.1.0-test-location.patch --author 'rpm-build <rpm-build>'
++ /usr/lib/rpm/rpmuncompress /builddir/build/SOURCES/yajl-2.1.0-dynlink-binaries.patch
++ /usr/bin/git apply --index --reject -
+Checking patch reformatter/CMakeLists.txt...
+Checking patch verify/CMakeLists.txt...
+Applied patch reformatter/CMakeLists.txt cleanly.
+Applied patch verify/CMakeLists.txt cleanly.
++ /usr/bin/git commit -q -m yajl-2.1.0-dynlink-binaries.patch --author 'rpm-build <rpm-build>'
++ /usr/lib/rpm/rpmuncompress /builddir/build/SOURCES/49923ccb2143e36850bcdeb781e2bcdf5ce22f15.patch
++ /usr/bin/git apply --index --reject -
+Checking patch src/yajl_buf.c...
+Applied patch src/yajl_buf.c cleanly.
++ /usr/bin/git commit -q -m 49923ccb2143e36850bcdeb781e2bcdf5ce22f15.patch --author 'rpm-build <rpm-build>'
++ /usr/lib/rpm/rpmuncompress /builddir/build/SOURCES/3d65cb0c6db4d433e5e42ee7d91d8a04e21337cf.patch
++ /usr/bin/git apply --index --reject -
+Checking patch src/yajl_tree.c...
+Applied patch src/yajl_tree.c cleanly.
++ /usr/bin/git commit -q -m 3d65cb0c6db4d433e5e42ee7d91d8a04e21337cf.patch --author 'rpm-build <rpm-build>'
++ /usr/lib/rpm/rpmuncompress /builddir/build/SOURCES/23a122eddaa28165a6c219000adcc31ff9a8a698.patch
++ /usr/bin/git apply --index --reject -
+Checking patch src/yajl_tree.c...
+Hunk #1 succeeded at 449 (offset -7 lines).
+Applied patch src/yajl_tree.c cleanly.
++ /usr/bin/git commit -q -m 23a122eddaa28165a6c219000adcc31ff9a8a698.patch --author 'rpm-build <rpm-build>'
++ /usr/lib/rpm/rpmuncompress /builddir/build/SOURCES/yajl-2.1.0-CVE-2022-24795.patch
++ /usr/bin/git apply --index --reject -
+Checking patch src/yajl_buf.c...
+Applied patch src/yajl_buf.c cleanly.
++ /usr/bin/git commit -q -m yajl-2.1.0-CVE-2022-24795.patch --author 'rpm-build <rpm-build>'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.jKcWtl
++ umask 022
++ cd /builddir/build/BUILD
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CFLAGS
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CXXFLAGS
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FFLAGS
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FCFLAGS
++ VALAFLAGS=-g
++ export VALAFLAGS
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes '
++ export LDFLAGS
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ export LT_SYS_LIBRARY_PATH
++ CC=gcc
++ export CC
++ CXX=g++
++ export CXX
++ cd yajl-2.1.0
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CFLAGS
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CXXFLAGS
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FFLAGS
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FCFLAGS
++ VALAFLAGS=-g
++ export VALAFLAGS
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes '
++ export LDFLAGS
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ export LT_SYS_LIBRARY_PATH
++ CC=gcc
++ export CC
++ CXX=g++
++ export CXX
++ /usr/bin/cmake -S . -B build -DCMAKE_C_FLAGS_RELEASE:STRING=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE:STRING=-DNDEBUG -DCMAKE_Fortran_FLAGS_RELEASE:STRING=-DNDEBUG -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INSTALL_DO_STRIP:BOOL=OFF -DCMAKE_INSTALL_PREFIX:PATH=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_SUFFIX=64 -DBUILD_SHARED_LIBS:BOOL=ON
+CMake Deprecation Warning at CMakeLists.txt:15 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+-- The C compiler identification is GNU 14.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test HAVE_GCC_VISIBILITY
+-- Performing Test HAVE_GCC_VISIBILITY - Success
+CMake Warning (dev) at src/CMakeLists.txt:70 (EXEC_PROGRAM):
+  Policy CMP0153 is not set: The exec_program command should not be called.
+  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+  Use execute_process() instead.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+running /usr/bin/cmake -E copy_if_different /builddir/build/BUILD/yajl-2.1.0/src/api/yajl_parse.h /builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl  2>&1
+CMake Warning (dev) at src/CMakeLists.txt:70 (EXEC_PROGRAM):
+  Policy CMP0153 is not set: The exec_program command should not be called.
+  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+  Use execute_process() instead.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+running /usr/bin/cmake -E copy_if_different /builddir/build/BUILD/yajl-2.1.0/src/api/yajl_gen.h /builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl  2>&1
+CMake Warning (dev) at src/CMakeLists.txt:70 (EXEC_PROGRAM):
+  Policy CMP0153 is not set: The exec_program command should not be called.
+  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+  Use execute_process() instead.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+running /usr/bin/cmake -E copy_if_different /builddir/build/BUILD/yajl-2.1.0/src/api/yajl_common.h /builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl  2>&1
+running /usr/bin/cmake -E copy_if_different /builddir/build/BUILD/yajl-2.1.0/src/api/yajl_tree.h /builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl  2>&1
+CMake Warning (dev) at src/CMakeLists.txt:70 (EXEC_PROGRAM):
+  Policy CMP0153 is not set: The exec_program command should not be called.
+  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+  Use execute_process() instead.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+CMake Warning (dev) at reformatter/CMakeLists.txt:38 (GET_TARGET_PROPERTY):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+  The LOCATION property should not be read from target "json_reformat".  Use
+  the target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+CMake Warning (dev) at verify/CMakeLists.txt:32 (GET_TARGET_PROPERTY):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+  The LOCATION property should not be read from target "json_verify".  Use
+  the target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+!! doxygen not found, not generating documentation
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_Fortran_FLAGS_RELEASE
+    CMAKE_INSTALL_DO_STRIP
+    INCLUDE_INSTALL_DIR
+    LIB_INSTALL_DIR
+    SHARE_INSTALL_PREFIX
+    SYSCONF_INSTALL_DIR
+-- Build files have been written to: /builddir/build/BUILD/yajl-2.1.0/build
++ /usr/bin/cmake --build build -j4 --verbose
+Change Dir: '/builddir/build/BUILD/yajl-2.1.0/build'
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j4
+/usr/bin/cmake -S/builddir/build/BUILD/yajl-2.1.0 -B/builddir/build/BUILD/yajl-2.1.0/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /builddir/build/BUILD/yajl-2.1.0/build/CMakeFiles /builddir/build/BUILD/yajl-2.1.0/build//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+/usr/bin/gmake  -f src/CMakeFiles/yajl_s.dir/build.make src/CMakeFiles/yajl_s.dir/depend
+/usr/bin/gmake  -f src/CMakeFiles/yajl.dir/build.make src/CMakeFiles/yajl.dir/depend
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+cd /builddir/build/BUILD/yajl-2.1.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /builddir/build/BUILD/yajl-2.1.0 /builddir/build/BUILD/yajl-2.1.0/src /builddir/build/BUILD/yajl-2.1.0/build /builddir/build/BUILD/yajl-2.1.0/build/src /builddir/build/BUILD/yajl-2.1.0/build/src/CMakeFiles/yajl_s.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+cd /builddir/build/BUILD/yajl-2.1.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /builddir/build/BUILD/yajl-2.1.0 /builddir/build/BUILD/yajl-2.1.0/src /builddir/build/BUILD/yajl-2.1.0/build /builddir/build/BUILD/yajl-2.1.0/build/src /builddir/build/BUILD/yajl-2.1.0/build/src/CMakeFiles/yajl.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+/usr/bin/gmake  -f src/CMakeFiles/yajl_s.dir/build.make src/CMakeFiles/yajl_s.dir/build
+/usr/bin/gmake  -f src/CMakeFiles/yajl.dir/build.make src/CMakeFiles/yajl.dir/build
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+[ 12%] Building C object src/CMakeFiles/yajl.dir/yajl_lex.c.o
+[  6%] Building C object src/CMakeFiles/yajl.dir/yajl.c.o
+[ 12%] Building C object src/CMakeFiles/yajl_s.dir/yajl.c.o
+[ 12%] Building C object src/CMakeFiles/yajl.dir/yajl_parser.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT src/CMakeFiles/yajl_s.dir/yajl.c.o -MF CMakeFiles/yajl_s.dir/yajl.c.o.d -o CMakeFiles/yajl_s.dir/yajl.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl.c
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -DYAJL_SHARED -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -fPIC -MD -MT src/CMakeFiles/yajl.dir/yajl.c.o -MF CMakeFiles/yajl.dir/yajl.c.o.d -o CMakeFiles/yajl.dir/yajl.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl.c
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -DYAJL_SHARED -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -fPIC -MD -MT src/CMakeFiles/yajl.dir/yajl_lex.c.o -MF CMakeFiles/yajl.dir/yajl_lex.c.o.d -o CMakeFiles/yajl.dir/yajl_lex.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_lex.c
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -DYAJL_SHARED -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -fPIC -MD -MT src/CMakeFiles/yajl.dir/yajl_parser.c.o -MF CMakeFiles/yajl.dir/yajl_parser.c.o.d -o CMakeFiles/yajl.dir/yajl_parser.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c
+/builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c: In function ‘yajl_do_parse’:
+/builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c:334:24: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  334 |                     if (yajl_bs_current(hand->stateStack) ==
+      |                        ^
+/builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c:347:17: note: here
+  347 |                 case yajl_tok_colon:
+      |                 ^~~~
+/builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c:405:24: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  405 |                     if (yajl_bs_current(hand->stateStack) ==
+      |                        ^
+/builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c:414:17: note: here
+  414 |                 default:
+      |                 ^~~~~~~
+[ 18%] Building C object src/CMakeFiles/yajl.dir/yajl_buf.c.o
+[ 18%] Building C object src/CMakeFiles/yajl_s.dir/yajl_lex.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -DYAJL_SHARED -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -fPIC -MD -MT src/CMakeFiles/yajl.dir/yajl_buf.c.o -MF CMakeFiles/yajl.dir/yajl_buf.c.o.d -o CMakeFiles/yajl.dir/yajl_buf.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_buf.c
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT src/CMakeFiles/yajl_s.dir/yajl_lex.c.o -MF CMakeFiles/yajl_s.dir/yajl_lex.c.o.d -o CMakeFiles/yajl_s.dir/yajl_lex.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_lex.c
+[ 21%] Building C object src/CMakeFiles/yajl.dir/yajl_encode.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -DYAJL_SHARED -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -fPIC -MD -MT src/CMakeFiles/yajl.dir/yajl_encode.c.o -MF CMakeFiles/yajl.dir/yajl_encode.c.o.d -o CMakeFiles/yajl.dir/yajl_encode.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_encode.c
+[ 24%] Building C object src/CMakeFiles/yajl.dir/yajl_gen.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -DYAJL_SHARED -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -fPIC -MD -MT src/CMakeFiles/yajl.dir/yajl_gen.c.o -MF CMakeFiles/yajl.dir/yajl_gen.c.o.d -o CMakeFiles/yajl.dir/yajl_gen.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_gen.c
+[ 27%] Building C object src/CMakeFiles/yajl.dir/yajl_alloc.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -DYAJL_SHARED -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -fPIC -MD -MT src/CMakeFiles/yajl.dir/yajl_alloc.c.o -MF CMakeFiles/yajl.dir/yajl_alloc.c.o.d -o CMakeFiles/yajl.dir/yajl_alloc.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_alloc.c
+[ 30%] Building C object src/CMakeFiles/yajl.dir/yajl_tree.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -DYAJL_SHARED -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -fPIC -MD -MT src/CMakeFiles/yajl.dir/yajl_tree.c.o -MF CMakeFiles/yajl.dir/yajl_tree.c.o.d -o CMakeFiles/yajl.dir/yajl_tree.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_tree.c
+[ 33%] Building C object src/CMakeFiles/yajl_s.dir/yajl_parser.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT src/CMakeFiles/yajl_s.dir/yajl_parser.c.o -MF CMakeFiles/yajl_s.dir/yajl_parser.c.o.d -o CMakeFiles/yajl_s.dir/yajl_parser.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c
+/builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c: In function ‘yajl_do_parse’:
+/builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c:334:24: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  334 |                     if (yajl_bs_current(hand->stateStack) ==
+      |                        ^
+/builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c:347:17: note: here
+  347 |                 case yajl_tok_colon:
+      |                 ^~~~
+/builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c:405:24: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  405 |                     if (yajl_bs_current(hand->stateStack) ==
+      |                        ^
+/builddir/build/BUILD/yajl-2.1.0/src/yajl_parser.c:414:17: note: here
+  414 |                 default:
+      |                 ^~~~~~~
+[ 36%] Building C object src/CMakeFiles/yajl.dir/yajl_version.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -DYAJL_SHARED -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -fPIC -MD -MT src/CMakeFiles/yajl.dir/yajl_version.c.o -MF CMakeFiles/yajl.dir/yajl_version.c.o.d -o CMakeFiles/yajl.dir/yajl_version.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_version.c
+[ 39%] Building C object src/CMakeFiles/yajl_s.dir/yajl_buf.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT src/CMakeFiles/yajl_s.dir/yajl_buf.c.o -MF CMakeFiles/yajl_s.dir/yajl_buf.c.o.d -o CMakeFiles/yajl_s.dir/yajl_buf.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_buf.c
+[ 42%] Building C object src/CMakeFiles/yajl_s.dir/yajl_encode.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT src/CMakeFiles/yajl_s.dir/yajl_encode.c.o -MF CMakeFiles/yajl_s.dir/yajl_encode.c.o.d -o CMakeFiles/yajl_s.dir/yajl_encode.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_encode.c
+[ 45%] Building C object src/CMakeFiles/yajl_s.dir/yajl_gen.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT src/CMakeFiles/yajl_s.dir/yajl_gen.c.o -MF CMakeFiles/yajl_s.dir/yajl_gen.c.o.d -o CMakeFiles/yajl_s.dir/yajl_gen.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_gen.c
+[ 48%] Linking C shared library ../yajl-2.1.0/lib/libyajl.so
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/cmake -E cmake_link_script CMakeFiles/yajl.dir/link.txt --verbose=1
+[ 51%] Building C object src/CMakeFiles/yajl_s.dir/yajl_alloc.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT src/CMakeFiles/yajl_s.dir/yajl_alloc.c.o -MF CMakeFiles/yajl_s.dir/yajl_alloc.c.o.d -o CMakeFiles/yajl_s.dir/yajl_alloc.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_alloc.c
+[ 54%] Building C object src/CMakeFiles/yajl_s.dir/yajl_tree.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT src/CMakeFiles/yajl_s.dir/yajl_tree.c.o -MF CMakeFiles/yajl_s.dir/yajl_tree.c.o.d -o CMakeFiles/yajl_s.dir/yajl_tree.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_tree.c
+[ 57%] Building C object src/CMakeFiles/yajl_s.dir/yajl_version.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/gcc -DYAJL_BUILD -I/builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl/.. -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT src/CMakeFiles/yajl_s.dir/yajl_version.c.o -MF CMakeFiles/yajl_s.dir/yajl_version.c.o.d -o CMakeFiles/yajl_s.dir/yajl_version.c.o -c /builddir/build/BUILD/yajl-2.1.0/src/yajl_version.c
+[ 60%] Linking C static library ../yajl-2.1.0/lib/libyajl_s.a
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/cmake -P CMakeFiles/yajl_s.dir/cmake_clean_target.cmake
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/cmake -E cmake_link_script CMakeFiles/yajl_s.dir/link.txt --verbose=1
+/usr/bin/ar qc ../yajl-2.1.0/lib/libyajl_s.a CMakeFiles/yajl_s.dir/yajl.c.o CMakeFiles/yajl_s.dir/yajl_lex.c.o CMakeFiles/yajl_s.dir/yajl_parser.c.o CMakeFiles/yajl_s.dir/yajl_buf.c.o CMakeFiles/yajl_s.dir/yajl_encode.c.o CMakeFiles/yajl_s.dir/yajl_gen.c.o CMakeFiles/yajl_s.dir/yajl_alloc.c.o CMakeFiles/yajl_s.dir/yajl_tree.c.o CMakeFiles/yajl_s.dir/yajl_version.c.o
+/usr/bin/ranlib ../yajl-2.1.0/lib/libyajl_s.a
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/cmake -E copy_if_different /builddir/build/BUILD/yajl-2.1.0/src/api/yajl_parse.h /builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/cmake -E copy_if_different /builddir/build/BUILD/yajl-2.1.0/src/api/yajl_gen.h /builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/cmake -E copy_if_different /builddir/build/BUILD/yajl-2.1.0/src/api/yajl_common.h /builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/cmake -E copy_if_different /builddir/build/BUILD/yajl-2.1.0/src/api/yajl_tree.h /builddir/build/BUILD/yajl-2.1.0/build/src/../yajl-2.1.0/include/yajl
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+[ 60%] Built target yajl_s
+/usr/bin/gmake  -f test/parsing/CMakeFiles/yajl_test.dir/build.make test/parsing/CMakeFiles/yajl_test.dir/depend
+/usr/bin/gmake  -f example/CMakeFiles/parse_config.dir/build.make example/CMakeFiles/parse_config.dir/depend
+/usr/bin/gmake  -f perf/CMakeFiles/perftest.dir/build.make perf/CMakeFiles/perftest.dir/depend
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+cd /builddir/build/BUILD/yajl-2.1.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /builddir/build/BUILD/yajl-2.1.0 /builddir/build/BUILD/yajl-2.1.0/example /builddir/build/BUILD/yajl-2.1.0/build /builddir/build/BUILD/yajl-2.1.0/build/example /builddir/build/BUILD/yajl-2.1.0/build/example/CMakeFiles/parse_config.dir/DependInfo.cmake "--color="
+cd /builddir/build/BUILD/yajl-2.1.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /builddir/build/BUILD/yajl-2.1.0 /builddir/build/BUILD/yajl-2.1.0/test/parsing /builddir/build/BUILD/yajl-2.1.0/build /builddir/build/BUILD/yajl-2.1.0/build/test/parsing /builddir/build/BUILD/yajl-2.1.0/build/test/parsing/CMakeFiles/yajl_test.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+cd /builddir/build/BUILD/yajl-2.1.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /builddir/build/BUILD/yajl-2.1.0 /builddir/build/BUILD/yajl-2.1.0/perf /builddir/build/BUILD/yajl-2.1.0/build /builddir/build/BUILD/yajl-2.1.0/build/perf /builddir/build/BUILD/yajl-2.1.0/build/perf/CMakeFiles/perftest.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+/usr/bin/gmake  -f test/parsing/CMakeFiles/yajl_test.dir/build.make test/parsing/CMakeFiles/yajl_test.dir/build
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+/usr/bin/gmake  -f example/CMakeFiles/parse_config.dir/build.make example/CMakeFiles/parse_config.dir/build
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+/usr/bin/gmake  -f perf/CMakeFiles/perftest.dir/build.make perf/CMakeFiles/perftest.dir/build
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+[ 63%] Building C object test/parsing/CMakeFiles/yajl_test.dir/yajl_test.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/test/parsing && /usr/bin/gcc  -I/builddir/build/BUILD/yajl-2.1.0/build/test/parsing/../../yajl-2.1.0/include -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT test/parsing/CMakeFiles/yajl_test.dir/yajl_test.c.o -MF CMakeFiles/yajl_test.dir/yajl_test.c.o.d -o CMakeFiles/yajl_test.dir/yajl_test.c.o -c /builddir/build/BUILD/yajl-2.1.0/test/parsing/yajl_test.c
+[ 66%] Building C object example/CMakeFiles/parse_config.dir/parse_config.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/example && /usr/bin/gcc  -I/builddir/build/BUILD/yajl-2.1.0/build/example/../yajl-2.1.0/include -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT example/CMakeFiles/parse_config.dir/parse_config.c.o -MF CMakeFiles/parse_config.dir/parse_config.c.o.d -o CMakeFiles/parse_config.dir/parse_config.c.o -c /builddir/build/BUILD/yajl-2.1.0/example/parse_config.c
+[ 69%] Building C object perf/CMakeFiles/perftest.dir/perftest.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/perf && /usr/bin/gcc  -I/builddir/build/BUILD/yajl-2.1.0/build/perf/../yajl-2.1.0/include -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT perf/CMakeFiles/perftest.dir/perftest.c.o -MF CMakeFiles/perftest.dir/perftest.c.o.d -o CMakeFiles/perftest.dir/perftest.c.o -c /builddir/build/BUILD/yajl-2.1.0/perf/perftest.c
+[ 72%] Linking C executable parse_config
+cd /builddir/build/BUILD/yajl-2.1.0/build/example && /usr/bin/cmake -E cmake_link_script CMakeFiles/parse_config.dir/link.txt --verbose=1
+[ 75%] Building C object perf/CMakeFiles/perftest.dir/documents.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/perf && /usr/bin/gcc  -I/builddir/build/BUILD/yajl-2.1.0/build/perf/../yajl-2.1.0/include -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT perf/CMakeFiles/perftest.dir/documents.c.o -MF CMakeFiles/perftest.dir/documents.c.o.d -o CMakeFiles/perftest.dir/documents.c.o -c /builddir/build/BUILD/yajl-2.1.0/perf/documents.c
+[ 78%] Linking C executable yajl_test
+cd /builddir/build/BUILD/yajl-2.1.0/build/test/parsing && /usr/bin/cmake -E cmake_link_script CMakeFiles/yajl_test.dir/link.txt --verbose=1
+[ 81%] Linking C executable perftest
+cd /builddir/build/BUILD/yajl-2.1.0/build/perf && /usr/bin/cmake -E cmake_link_script CMakeFiles/perftest.dir/link.txt --verbose=1
+/usr/bin/gcc -fPIC -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -Wl,--dependency-file=CMakeFiles/yajl.dir/link.d -Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes -shared -Wl,-soname,libyajl.so.2 -o ../yajl-2.1.0/lib/libyajl.so.2.1.0 CMakeFiles/yajl.dir/yajl.c.o CMakeFiles/yajl.dir/yajl_lex.c.o CMakeFiles/yajl.dir/yajl_parser.c.o CMakeFiles/yajl.dir/yajl_buf.c.o CMakeFiles/yajl.dir/yajl_encode.c.o CMakeFiles/yajl.dir/yajl_gen.c.o CMakeFiles/yajl.dir/yajl_alloc.c.o CMakeFiles/yajl.dir/yajl_tree.c.o CMakeFiles/yajl.dir/yajl_version.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/src && /usr/bin/cmake -E cmake_symlink_library ../yajl-2.1.0/lib/libyajl.so.2.1.0 ../yajl-2.1.0/lib/libyajl.so.2 ../yajl-2.1.0/lib/libyajl.so
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+[ 81%] Built target yajl
+/usr/bin/gmake  -f test/api/CMakeFiles/gen-extra-close.dir/build.make test/api/CMakeFiles/gen-extra-close.dir/depend
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+cd /builddir/build/BUILD/yajl-2.1.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /builddir/build/BUILD/yajl-2.1.0 /builddir/build/BUILD/yajl-2.1.0/test/api /builddir/build/BUILD/yajl-2.1.0/build /builddir/build/BUILD/yajl-2.1.0/build/test/api /builddir/build/BUILD/yajl-2.1.0/build/test/api/CMakeFiles/gen-extra-close.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+/usr/bin/gmake  -f test/api/CMakeFiles/gen-extra-close.dir/build.make test/api/CMakeFiles/gen-extra-close.dir/build
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+[ 84%] Building C object test/api/CMakeFiles/gen-extra-close.dir/gen-extra-close.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/test/api && /usr/bin/gcc  -I/builddir/build/BUILD/yajl-2.1.0/build/test/api/../../yajl-2.1.0/include -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT test/api/CMakeFiles/gen-extra-close.dir/gen-extra-close.c.o -MF CMakeFiles/gen-extra-close.dir/gen-extra-close.c.o.d -o CMakeFiles/gen-extra-close.dir/gen-extra-close.c.o -c /builddir/build/BUILD/yajl-2.1.0/test/api/gen-extra-close.c
+[ 87%] Linking C executable gen-extra-close
+cd /builddir/build/BUILD/yajl-2.1.0/build/test/api && /usr/bin/cmake -E cmake_link_script CMakeFiles/gen-extra-close.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes -rdynamic -Wl,--dependency-file=CMakeFiles/gen-extra-close.dir/link.d "CMakeFiles/gen-extra-close.dir/gen-extra-close.c.o" -o gen-extra-close   -L/builddir/build/BUILD/yajl-2.1.0/build/test/api/../../yajl-2.1.0/lib  -Wl,-rpath,/builddir/build/BUILD/yajl-2.1.0/build/test/api/../../yajl-2.1.0/lib:/builddir/build/BUILD/yajl-2.1.0/build/yajl-2.1.0/lib ../../yajl-2.1.0/lib/libyajl.so.2.1.0
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+[ 87%] Built target gen-extra-close
+/usr/bin/gmake  -f reformatter/CMakeFiles/json_reformat.dir/build.make reformatter/CMakeFiles/json_reformat.dir/depend
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+cd /builddir/build/BUILD/yajl-2.1.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /builddir/build/BUILD/yajl-2.1.0 /builddir/build/BUILD/yajl-2.1.0/reformatter /builddir/build/BUILD/yajl-2.1.0/build /builddir/build/BUILD/yajl-2.1.0/build/reformatter /builddir/build/BUILD/yajl-2.1.0/build/reformatter/CMakeFiles/json_reformat.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+/usr/bin/gmake  -f reformatter/CMakeFiles/json_reformat.dir/build.make reformatter/CMakeFiles/json_reformat.dir/build
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+/usr/bin/gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes -rdynamic -Wl,--dependency-file=CMakeFiles/yajl_test.dir/link.d CMakeFiles/yajl_test.dir/yajl_test.c.o -o yajl_test   -L/builddir/build/BUILD/yajl-2.1.0/build/test/parsing/../../yajl-2.1.0/lib  -Wl,-rpath,/builddir/build/BUILD/yajl-2.1.0/build/test/parsing/../../yajl-2.1.0/lib ../../yajl-2.1.0/lib/libyajl_s.a
+[ 90%] Building C object reformatter/CMakeFiles/json_reformat.dir/json_reformat.c.o
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+cd /builddir/build/BUILD/yajl-2.1.0/build/reformatter && /usr/bin/gcc  -I/builddir/build/BUILD/yajl-2.1.0/build/reformatter/../yajl-2.1.0/include -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT reformatter/CMakeFiles/json_reformat.dir/json_reformat.c.o -MF CMakeFiles/json_reformat.dir/json_reformat.c.o.d -o CMakeFiles/json_reformat.dir/json_reformat.c.o -c /builddir/build/BUILD/yajl-2.1.0/reformatter/json_reformat.c
+/usr/bin/gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes -rdynamic -Wl,--dependency-file=CMakeFiles/parse_config.dir/link.d CMakeFiles/parse_config.dir/parse_config.c.o -o parse_config   -L/builddir/build/BUILD/yajl-2.1.0/build/example/../yajl-2.1.0/lib  -Wl,-rpath,/builddir/build/BUILD/yajl-2.1.0/build/example/../yajl-2.1.0/lib ../yajl-2.1.0/lib/libyajl_s.a
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+[ 90%] Built target yajl_test
+/usr/bin/gmake  -f verify/CMakeFiles/json_verify.dir/build.make verify/CMakeFiles/json_verify.dir/depend
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+cd /builddir/build/BUILD/yajl-2.1.0/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /builddir/build/BUILD/yajl-2.1.0 /builddir/build/BUILD/yajl-2.1.0/verify /builddir/build/BUILD/yajl-2.1.0/build /builddir/build/BUILD/yajl-2.1.0/build/verify /builddir/build/BUILD/yajl-2.1.0/build/verify/CMakeFiles/json_verify.dir/DependInfo.cmake "--color="
+[ 90%] Built target parse_config
+/usr/bin/gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes -rdynamic -Wl,--dependency-file=CMakeFiles/perftest.dir/link.d CMakeFiles/perftest.dir/perftest.c.o CMakeFiles/perftest.dir/documents.c.o -o perftest   -L/builddir/build/BUILD/yajl-2.1.0/build/perf/../yajl-2.1.0/lib  -Wl,-rpath,/builddir/build/BUILD/yajl-2.1.0/build/perf/../yajl-2.1.0/lib ../yajl-2.1.0/lib/libyajl_s.a
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+/usr/bin/gmake  -f verify/CMakeFiles/json_verify.dir/build.make verify/CMakeFiles/json_verify.dir/build
+gmake[2]: Entering directory '/builddir/build/BUILD/yajl-2.1.0/build'
+[ 90%] Built target perftest
+[ 93%] Building C object verify/CMakeFiles/json_verify.dir/json_verify.c.o
+cd /builddir/build/BUILD/yajl-2.1.0/build/verify && /usr/bin/gcc  -I/builddir/build/BUILD/yajl-2.1.0/build/verify/../yajl-2.1.0/include -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -MD -MT verify/CMakeFiles/json_verify.dir/json_verify.c.o -MF CMakeFiles/json_verify.dir/json_verify.c.o.d -o CMakeFiles/json_verify.dir/json_verify.c.o -c /builddir/build/BUILD/yajl-2.1.0/verify/json_verify.c
+[ 96%] Linking C executable json_verify
+cd /builddir/build/BUILD/yajl-2.1.0/build/verify && /usr/bin/cmake -E cmake_link_script CMakeFiles/json_verify.dir/link.txt --verbose=1
+[100%] Linking C executable json_reformat
+cd /builddir/build/BUILD/yajl-2.1.0/build/reformatter && /usr/bin/cmake -E cmake_link_script CMakeFiles/json_reformat.dir/link.txt --verbose=1
+/usr/bin/gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes -rdynamic -Wl,--dependency-file=CMakeFiles/json_verify.dir/link.d CMakeFiles/json_verify.dir/json_verify.c.o -o json_verify   -L/builddir/build/BUILD/yajl-2.1.0/build/verify/../yajl-2.1.0/lib  -Wl,-rpath,/builddir/build/BUILD/yajl-2.1.0/build/verify/../yajl-2.1.0/lib:/builddir/build/BUILD/yajl-2.1.0/build/yajl-2.1.0/lib: ../yajl-2.1.0/lib/libyajl.so.2.1.0
+cd /builddir/build/BUILD/yajl-2.1.0/build/verify && /usr/bin/cmake -E copy_if_different /builddir/build/BUILD/yajl-2.1.0/build/verify/json_verify /builddir/build/BUILD/yajl-2.1.0/build/verify/../yajl-2.1.0/bin
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+[100%] Built target json_verify
+/usr/bin/gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -Wall -fvisibility=hidden -std=c99 -pedantic -Wpointer-arith -Wno-format-y2k -Wstrict-prototypes -Wmissing-declarations -Wnested-externs -Wextra	-Wundef -Wwrite-strings -Wold-style-definition -Wredundant-decls -Wno-unused-parameter -Wno-sign-compare -Wmissing-prototypes -DNDEBUG -O2 -Wuninitialized -Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes -rdynamic -Wl,--dependency-file=CMakeFiles/json_reformat.dir/link.d CMakeFiles/json_reformat.dir/json_reformat.c.o -o json_reformat   -L/builddir/build/BUILD/yajl-2.1.0/build/reformatter/../yajl-2.1.0/lib  -Wl,-rpath,/builddir/build/BUILD/yajl-2.1.0/build/reformatter/../yajl-2.1.0/lib:/builddir/build/BUILD/yajl-2.1.0/build/yajl-2.1.0/lib: ../yajl-2.1.0/lib/libyajl.so.2.1.0 -lm
+cd /builddir/build/BUILD/yajl-2.1.0/build/reformatter && /usr/bin/cmake -E copy_if_different /builddir/build/BUILD/yajl-2.1.0/build/reformatter/json_reformat /builddir/build/BUILD/yajl-2.1.0/build/reformatter/../yajl-2.1.0/bin
+gmake[2]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+[100%] Built target json_reformat
+gmake[1]: Leaving directory '/builddir/build/BUILD/yajl-2.1.0/build'
+/usr/bin/cmake -E cmake_progress_start /builddir/build/BUILD/yajl-2.1.0/build/CMakeFiles 0
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.L95uXI
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64
+++ dirname /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CFLAGS
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CXXFLAGS
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FFLAGS
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FCFLAGS
++ VALAFLAGS=-g
++ export VALAFLAGS
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes '
++ export LDFLAGS
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ export LT_SYS_LIBRARY_PATH
++ CC=gcc
++ export CC
++ CXX=g++
++ export CXX
++ cd yajl-2.1.0
++ DESTDIR=/builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64
++ /usr/bin/cmake --install build
+-- Install configuration: "Release"
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/lib64/libyajl.so.2.1.0
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/lib64/libyajl.so.2
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/lib64/libyajl.so
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/lib64/libyajl_s.a
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/include/yajl/yajl_parse.h
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/include/yajl/yajl_gen.h
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/include/yajl/yajl_common.h
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/include/yajl/yajl_tree.h
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/include/yajl/yajl_version.h
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/lib64/pkgconfig/yajl.pc
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/bin/json_reformat
+-- Set non-toolchain portion of runtime path of "/builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/bin/json_reformat" to ""
+-- Installing: /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/bin/json_verify
+-- Set non-toolchain portion of runtime path of "/builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/bin/json_verify" to ""
++ rm -f /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/lib64/libyajl_s.a
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 2.1.0-25.el10 --unique-debug-suffix -2.1.0-25.el10.x86_64 --unique-debug-src-base yajl-2.1.0-25.el10.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 -S debugsourcefiles.list /builddir/build/BUILD/yajl-2.1.0
+find-debuginfo: starting
+Extracting debug info from 3 files
+DWARF-compressing 3 files
+sepdebugcrcfix: Updated 3 CRC32s, 0 CRC32s did match.
+Creating .debug symlinks for symlinks to ELF files
+Copying sources found by 'debugedit -l' to /usr/src/debug/yajl-2.1.0-25.el10.x86_64
+find-debuginfo: done
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/check-rpaths
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
++ /usr/lib/rpm/brp-remove-la-files
++ /usr/lib/rpm/redhat/brp-python-rpm-in-distinfo
++ env /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0 -j4
++ /usr/lib/rpm/redhat/brp-python-hardlink
+Executing(%check): /bin/sh -e /var/tmp/rpm-tmp.HBjQna
++ umask 022
++ cd /builddir/build/BUILD
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CFLAGS
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CXXFLAGS
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FFLAGS
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v3 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FCFLAGS
++ VALAFLAGS=-g
++ export VALAFLAGS
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-hardened-ld-errors -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes '
++ export LDFLAGS
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ export LT_SYS_LIBRARY_PATH
++ CC=gcc
++ export CC
++ CXX=g++
++ export CXX
++ cd yajl-2.1.0
++ cd test
++ cd parsing
++ ./run_tests.sh
+using test binary: ../../build/test/parsing/yajl_test
+ test (ac_difficult_json_c_test_case_with_comments): SUCCESS
+ test (ac_simple_with_comments): SUCCESS
+ test (ag_false_then_garbage): SUCCESS
+ test (ag_null_then_garbage): SUCCESS
+ test (ag_true_then_garbage): SUCCESS
+ test (am_eof): SUCCESS
+ test (am_integers): SUCCESS
+ test (am_multiple): SUCCESS
+ test (am_stuff): SUCCESS
+ test (ap_array_open): SUCCESS
+ test (ap_eof_str): SUCCESS
+ test (ap_map_open): SUCCESS
+ test (ap_partial_ok): SUCCESS
+ test (array): SUCCESS
+ test (array_close): SUCCESS
+ test (bignums): SUCCESS
+ test (bogus_char): SUCCESS
+ test (codepoints_from_unicode_org): SUCCESS
+ test (deep_arrays): SUCCESS
+ test (difficult_json_c_test_case): SUCCESS
+ test (doubles): SUCCESS
+ test (doubles_in_array): SUCCESS
+ test (empty_array): SUCCESS
+ test (empty_string): SUCCESS
+ test (escaped_bulgarian): SUCCESS
+ test (escaped_foobar): SUCCESS
+ test (false): SUCCESS
+ test (fg_false_then_garbage): SUCCESS
+ test (fg_issue_7): SUCCESS
+ test (fg_null_then_garbage): SUCCESS
+ test (fg_true_then_garbage): SUCCESS
+ test (four_byte_utf8): SUCCESS
+ test (high_overflow): SUCCESS
+ test (integers): SUCCESS
+ test (invalid_utf8): SUCCESS
+ test (isolated_surrogate_marker): SUCCESS
+ test (leading_zero_in_number): SUCCESS
+ test (lonely_minus_sign): SUCCESS
+ test (lonely_number): SUCCESS
+ test (low_overflow): SUCCESS
+ test (map_close): SUCCESS
+ test (missing_integer_after_decimal_point): SUCCESS
+ test (missing_integer_after_exponent): SUCCESS
+ test (multiple): SUCCESS
+ test (non_utf8_char_in_string): SUCCESS
+ test (np_partial_bad): SUCCESS
+ test (null): SUCCESS
+ test (nulls_and_bools): SUCCESS
+ test (simple): SUCCESS
+ test (simple_with_comments): SUCCESS
+ test (string_invalid_escape): SUCCESS
+ test (string_invalid_hex_char): SUCCESS
+ test (string_with_escapes): SUCCESS
+ test (string_with_invalid_newline): SUCCESS
+ test (three_byte_utf8): SUCCESS
+ test (true): SUCCESS
+ test (unescaped_bulgarian): SUCCESS
+ test (zerobyte): SUCCESS
+58/58 tests successful
++ cd api
++ ./run_tests.sh
+Running api tests:
+0/0 tests successful
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Processing files: yajl-2.1.0-25.el10.x86_64
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.jo2lY3
++ umask 022
++ cd /builddir/build/BUILD
++ cd yajl-2.1.0
++ DOCDIR=/builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/share/doc/yajl
++ export LC_ALL=
++ LC_ALL=
++ export DOCDIR
++ /usr/bin/mkdir -p /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/share/doc/yajl
++ cp -pr /builddir/build/BUILD/yajl-2.1.0/ChangeLog /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/share/doc/yajl
++ cp -pr /builddir/build/BUILD/yajl-2.1.0/README /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/share/doc/yajl
++ cp -pr /builddir/build/BUILD/yajl-2.1.0/TODO /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/share/doc/yajl
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%license): /bin/sh -e /var/tmp/rpm-tmp.Y7PFIn
++ umask 022
++ cd /builddir/build/BUILD
++ cd yajl-2.1.0
++ LICENSEDIR=/builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/share/licenses/yajl
++ export LC_ALL=
++ LC_ALL=
++ export LICENSEDIR
++ /usr/bin/mkdir -p /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/share/licenses/yajl
++ cp -pr /builddir/build/BUILD/yajl-2.1.0/COPYING /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64/usr/share/licenses/yajl
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Provides: libyajl.so.2()(64bit) yajl = 2.1.0-25.el10 yajl(x86-64) = 2.1.0-25.el10
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: libc.so.6()(64bit) libc.so.6(GLIBC_2.14)(64bit) libc.so.6(GLIBC_2.2.5)(64bit) libc.so.6(GLIBC_2.3.4)(64bit) libc.so.6(GLIBC_2.34)(64bit) libc.so.6(GLIBC_2.4)(64bit) libc.so.6(GLIBC_ABI_DT_RELR)(64bit) libyajl.so.2()(64bit) rtld(GNU_HASH)
+Processing files: yajl-devel-2.1.0-25.el10.x86_64
+Provides: pkgconfig(yajl) = 2.1.0 yajl-devel = 2.1.0-25.el10 yajl-devel(x86-64) = 2.1.0-25.el10
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/pkg-config libyajl.so.2()(64bit)
+Processing files: yajl-debugsource-2.1.0-25.el10.x86_64
+Provides: yajl-debugsource = 2.1.0-25.el10 yajl-debugsource(x86-64) = 2.1.0-25.el10
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Processing files: yajl-debuginfo-2.1.0-25.el10.x86_64
+Provides: debuginfo(build-id) = 1beda3c049f5b7c9a48e7ac928b876d529201b05 debuginfo(build-id) = 46e119dbfc5bbce810cca27432702bc3bf64d541 debuginfo(build-id) = ca22f60a621ef8f59125e345d59a56e449692129 libyajl.so.2.1.0-2.1.0-25.el10.x86_64.debug()(64bit) yajl-debuginfo = 2.1.0-25.el10 yajl-debuginfo(x86-64) = 2.1.0-25.el10
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: yajl-debugsource(x86-64) = 2.1.0-25.el10
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/yajl-2.1.0-25.el10.x86_64
+Wrote: /builddir/build/RPMS/yajl-devel-2.1.0-25.el10.x86_64.rpm
+Wrote: /builddir/build/RPMS/yajl-2.1.0-25.el10.x86_64.rpm
+Wrote: /builddir/build/RPMS/yajl-debugsource-2.1.0-25.el10.x86_64.rpm
+Wrote: /builddir/build/RPMS/yajl-debuginfo-2.1.0-25.el10.x86_64.rpm
+Child return code was: 0

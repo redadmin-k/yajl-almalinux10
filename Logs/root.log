@@ -1,0 +1,2020 @@
+INFO buildroot.py:668:  Mock Version: 6.7
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/results
+INFO buildroot.py:318:  calling preinit hooks
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/alma+epel-10-x86_64-bootstrap/root_cache/
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/alma+epel-10-x86_64-bootstrap/yum_cache
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/alma+epel-10-x86_64-bootstrap/dnf_cache
+DEBUG buildroot.py:724:  create skeleton dirs
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/rpm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/dbus
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/log
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/cache/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/cache/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/rpm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/tmp
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/tmp/ccache
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/tmp
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/dnf/vars
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/yum.repos.d
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/yum.repos.d
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/proc
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/sys
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/run/lock
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/dev/shm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/dev/mapper
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/dev/mapper
+DEBUG buildroot.py:868:  kernel version == 6.12.0-211.28.1.el10_2.x86_64
+DEBUG file_util.py:29:  touching file: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/fstab
+DEBUG file_util.py:29:  touching file: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/yum/yum.conf
+DEBUG file_util.py:29:  touching file: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/dnf/dnf.conf
+DEBUG file_util.py:29:  touching file: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/log/yum.log
+DEBUG buildroot.py:332:  rootdir = /var/lib/mock/alma+epel-10-x86_64-bootstrap/root
+DEBUG buildroot.py:333:  resultdir = /var/lib/mock/alma+epel-10-x86_64-bootstrap/results
+DEBUG package_manager.py:63:  searching for 'dnf4' package manager or alternatives
+INFO buildroot.py:181:  Package manager dnf4 detected and used (fallback)
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/mock
+DEBUG package_manager.py:404:  copying CA trust dir into chroot: /etc/pki/ca-trust => /etc/pki/ca-trust
+DEBUG file_util.py:178:  Updating files in /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/./extracted
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/./source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/edk2
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/java
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/openssl
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/pem
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/extracted/pem/directory-hash
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/source/anchors
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/pki/ca-trust/source/blocklist
+DEBUG package_manager.py:404:  copying CA trust dir into chroot: /usr/share/pki/ca-trust-source => /usr/share/pki/ca-trust-source
+DEBUG file_util.py:178:  Updating files in /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/usr/share/pki/ca-trust-source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/usr/share/pki/ca-trust-source/./anchors
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/usr/share/pki/ca-trust-source/./blocklist
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/usr/share
+DEBUG package_manager.py:388:  Copying /usr/share/distribution-gpg-keys to the bootstrap chroot
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['cp', '-a', '/usr/share/distribution-gpg-keys', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/usr/share'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc/dnf
+DEBUG package_manager.py:691:  configure DNF vars
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/cache/yum
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/alma+epel-10-x86_64-bootstrap/yum_cache', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/cache/dnf
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/alma+epel-10-x86_64-bootstrap/dnf_cache', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/etc
+DEBUG buildroot.py:38:  method _cleanup_homedir skipped in bootstrap
+DEBUG buildroot.py:38:  method _setup_build_dirs skipped in bootstrap
+DEBUG buildroot.py:38:  method _make_users skipped in bootstrap
+DEBUG file_util.py:29:  touching file: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/.initialized
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/result
+INFO buildroot.py:318:  calling preinit hooks
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/alma+epel-10-x86_64/root_cache/
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/tar', '--use-compress-program', 'pigz', '-xf', '/var/cache/mock/alma+epel-10-x86_64/root_cache/cache.tar.gz', '-C', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/./proc
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/./proc
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/./sys
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/./sys
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/./dev
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/./dev
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/./tmp/ccache
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/./tmp/ccache
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/./var/cache/yum
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/./var/cache/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/./var/cache/dnf
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/./var/cache/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/./var/log
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/./var/log
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/alma+epel-10-x86_64/yum_cache
+DEBUG file_util.py:17:  ensuring that dir exists: /var/cache/mock/alma+epel-10-x86_64/dnf_cache
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/usr/bin/lscpu'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:463:  Architecture:                            x86_64
+DEBUG util.py:463:  CPU op-mode(s):                          32-bit, 64-bit
+DEBUG util.py:463:  Address sizes:                           39 bits physical, 48 bits virtual
+DEBUG util.py:463:  Byte Order:                              Little Endian
+DEBUG util.py:463:  CPU(s):                                  4
+DEBUG util.py:463:  On-line CPU(s) list:                     0-3
+DEBUG util.py:463:  Vendor ID:                               GenuineIntel
+DEBUG util.py:463:  BIOS Vendor ID:                          QEMU
+DEBUG util.py:463:  Model name:                              Intel(R) N100
+DEBUG util.py:463:  BIOS Model name:                         pc-q35-8.2  CPU @ 2.0GHz
+DEBUG util.py:463:  BIOS CPU family:                         1
+DEBUG util.py:463:  CPU family:                              6
+DEBUG util.py:463:  Model:                                   190
+DEBUG util.py:463:  Thread(s) per core:                      1
+DEBUG util.py:463:  Core(s) per socket:                      1
+DEBUG util.py:463:  Socket(s):                               4
+DEBUG util.py:463:  Stepping:                                0
+DEBUG util.py:463:  BogoMIPS:                                1612.80
+DEBUG util.py:463:  Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni arat umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities
+DEBUG util.py:463:  Hypervisor vendor:                       KVM
+DEBUG util.py:463:  Virtualization type:                     full
+DEBUG util.py:463:  L1d cache:                               128 KiB (4 instances)
+DEBUG util.py:463:  L1i cache:                               128 KiB (4 instances)
+DEBUG util.py:463:  L2 cache:                                16 MiB (4 instances)
+DEBUG util.py:463:  L3 cache:                                64 MiB (4 instances)
+DEBUG util.py:463:  NUMA node(s):                            1
+DEBUG util.py:463:  NUMA node0 CPU(s):                       0-3
+DEBUG util.py:463:  Vulnerability Gather data sampling:      Not affected
+DEBUG util.py:463:  Vulnerability Indirect target selection: Mitigation; Aligned branch/return thunks
+DEBUG util.py:463:  Vulnerability Itlb multihit:             Not affected
+DEBUG util.py:463:  Vulnerability L1tf:                      Not affected
+DEBUG util.py:463:  Vulnerability Mds:                       Not affected
+DEBUG util.py:463:  Vulnerability Meltdown:                  Not affected
+DEBUG util.py:463:  Vulnerability Mmio stale data:           Not affected
+DEBUG util.py:463:  Vulnerability Old microcode:             Not affected
+DEBUG util.py:463:  Vulnerability Reg file data sampling:    Vulnerable: No microcode
+DEBUG util.py:463:  Vulnerability Retbleed:                  Not affected
+DEBUG util.py:463:  Vulnerability Spec rstack overflow:      Not affected
+DEBUG util.py:463:  Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+DEBUG util.py:463:  Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+DEBUG util.py:463:  Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS Not affected; BHI SW loop, KVM SW loop
+DEBUG util.py:463:  Vulnerability Srbds:                     Not affected
+DEBUG util.py:463:  Vulnerability Tsa:                       Not affected
+DEBUG util.py:463:  Vulnerability Tsx async abort:           Not affected
+DEBUG util.py:463:  Vulnerability Vmscape:                   Not affected
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/free', '--human'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:463:                 total        used        free      shared  buff/cache   available
+DEBUG util.py:463:  Mem:           3.6Gi       622Mi       1.5Gi       9.4Mi       1.7Gi       3.0Gi
+DEBUG util.py:463:  Swap:          3.9Gi       3.8Mi       3.9Gi
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/df', '-H', '-T', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/cache/mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:463:  Filesystem     Type  Size  Used Avail Use% Mounted on
+DEBUG util.py:463:  /dev/vda4      xfs    49G   13G   36G  27% /
+DEBUG util.py:463:  /dev/vda4      xfs    49G   13G   36G  27% /
+DEBUG util.py:610:  Child return code was: 0
+DEBUG buildroot.py:724:  create skeleton dirs
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/var/lib/rpm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/var/lib/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/var/lib/dbus
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/var/log
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/var/cache/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/var/cache/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/rpm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/tmp
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/tmp/ccache
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/var/tmp
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/dnf
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/dnf/vars
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/yum.repos.d
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/yum
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/proc
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/sys
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/run/lock
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/dev/pts
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/dev/shm
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/dev/shm
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/dev/mapper
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/dev/mapper
+DEBUG buildroot.py:868:  kernel version == 6.12.0-211.28.1.el10_2.x86_64
+DEBUG file_util.py:29:  touching file: /var/lib/mock/alma+epel-10-x86_64/root/etc/fstab
+DEBUG file_util.py:29:  touching file: /var/lib/mock/alma+epel-10-x86_64/root/etc/yum/yum.conf
+DEBUG file_util.py:29:  touching file: /var/lib/mock/alma+epel-10-x86_64/root/etc/dnf/dnf.conf
+DEBUG file_util.py:29:  touching file: /var/lib/mock/alma+epel-10-x86_64/root/var/log/yum.log
+DEBUG buildroot.py:332:  rootdir = /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG buildroot.py:333:  resultdir = /var/lib/mock/alma+epel-10-x86_64/result
+INFO buildroot.py:181:  Package manager dnf4 detected and used (direct choice)
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/mock
+DEBUG package_manager.py:404:  copying CA trust dir into chroot: /etc/pki/ca-trust => /etc/pki/ca-trust
+DEBUG file_util.py:178:  Updating files in /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust/./extracted
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust/./source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust/extracted/edk2
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust/extracted/java
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust/extracted/openssl
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust/extracted/pem
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust/extracted/pem/directory-hash
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust/source/anchors
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/pki/ca-trust/source/blocklist
+DEBUG package_manager.py:404:  copying CA trust dir into chroot: /usr/share/pki/ca-trust-source => /usr/share/pki/ca-trust-source
+DEBUG file_util.py:178:  Updating files in /var/lib/mock/alma+epel-10-x86_64/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/usr/share/pki/ca-trust-source
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/usr/share/pki/ca-trust-source/./anchors
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/usr/share/pki/ca-trust-source/./blocklist
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/etc/dnf
+DEBUG package_manager.py:691:  configure DNF vars
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/var/cache/yum
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/alma+epel-10-x86_64/yum_cache', '/var/lib/mock/alma+epel-10-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/var/cache/dnf
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/alma+epel-10-x86_64/dnf_cache', '/var/lib/mock/alma+epel-10-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args None
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '212ee1325cb041fd9f9b1023ad37774b', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/sh', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', 'rpm', '-q', 'rpm', 'rpm-sequoia', 'python3-dnf', 'python3-dnf-plugins-core', 'yum', 'yum-utils', 'dnf5', 'dnf5-plugins'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:463:  rpm-4.19.1.1-20.el10.alma.1.x86_64
+DEBUG util.py:463:  rpm-sequoia-1.9.0.3-1.el10_1.x86_64
+DEBUG util.py:463:  python3-dnf-4.20.0-18.el10.alma.1.noarch
+DEBUG util.py:463:  python3-dnf-plugins-core-4.7.0-9.el10.noarch
+DEBUG util.py:463:  yum-4.20.0-18.el10.alma.1.noarch
+DEBUG util.py:463:  package yum-utils is not installed
+DEBUG util.py:463:  package dnf5 is not installed
+DEBUG util.py:463:  package dnf5-plugins is not installed
+DEBUG util.py:610:  Child return code was: 3
+INFO package_manager.py:201:  Buildroot is handled by package management downloaded with a bootstrap image:
+  rpm-4.19.1.1-20.el10.alma.1.x86_64
+  rpm-sequoia-1.9.0.3-1.el10_1.x86_64
+  python3-dnf-4.20.0-18.el10.alma.1.noarch
+  python3-dnf-plugins-core-4.7.0-9.el10.noarch
+  yum-4.20.0-18.el10.alma.1.noarch
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '2a71ea593bab430ebc40100155d95818', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qa', '--root', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:463:  gpg-pubkey-c2a1e572-668fe8ef
+DEBUG util.py:463:  gpg-pubkey-e37ed158-65785fa9
+DEBUG util.py:463:  libgcc-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  ghc-srpm-macros-1.9.2-1.el10_0.noarch
+DEBUG util.py:463:  fpc-srpm-macros-1.3-7.el10_1.noarch
+DEBUG util.py:463:  ansible-srpm-macros-1-21.el10_2.noarch
+DEBUG util.py:463:  rust-toolset-srpm-macros-1.92.0-1.el10.alma.1.noarch
+DEBUG util.py:463:  qt6-srpm-macros-6.10.1-1.el10.noarch
+DEBUG util.py:463:  perl-srpm-macros-1-57.el10.noarch
+DEBUG util.py:463:  package-notes-srpm-macros-0.5-13.el10.noarch
+DEBUG util.py:463:  openblas-srpm-macros-2-19.el10.noarch
+DEBUG util.py:463:  ocaml-srpm-macros-10-4.el10.noarch
+DEBUG util.py:463:  kernel-srpm-macros-1.0-27.el10.noarch
+DEBUG util.py:463:  publicsuffix-list-dafsa-20240107-5.el10.noarch
+DEBUG util.py:463:  pkgconf-m4-2.1.0-3.el10.noarch
+DEBUG util.py:463:  pcre2-syntax-10.44-1.el10.3.noarch
+DEBUG util.py:463:  ncurses-base-6.4-15.20240127.el10_1.noarch
+DEBUG util.py:463:  libssh-config-0.12.0-2.el10.noarch
+DEBUG util.py:463:  coreutils-common-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  almalinux-gpg-keys-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-release-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-repos-10.2-21.el10.x86_64
+DEBUG util.py:463:  setup-2.14.5-7.el10.noarch
+DEBUG util.py:463:  filesystem-3.18-17.el10.x86_64
+DEBUG util.py:463:  basesystem-11-22.el10.noarch
+DEBUG util.py:463:  glibc-gconv-extra-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  ncurses-libs-6.4-15.20240127.el10_1.x86_64
+DEBUG util.py:463:  glibc-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  bash-5.2.26-6.el10.x86_64
+DEBUG util.py:463:  glibc-common-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  glibc-minimal-langpack-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  zlib-ng-compat-2.2.3-3.el10_1.x86_64
+DEBUG util.py:463:  bzip2-libs-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  xz-libs-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libstdc++-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libuuid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  popt-1.19-8.el10.x86_64
+DEBUG util.py:463:  readline-8.2-11.el10.x86_64
+DEBUG util.py:463:  libblkid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  gmp-6.2.1-12.el10.x86_64
+DEBUG util.py:463:  libattr-2.5.2-5.el10.x86_64
+DEBUG util.py:463:  libacl-2.3.2-4.el10.x86_64
+DEBUG util.py:463:  libxcrypt-4.4.36-10.el10.x86_64
+DEBUG util.py:463:  libzstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  elfutils-libelf-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  crypto-policies-20260216-1.git0e54016.el10.alma.1.noarch
+DEBUG util.py:463:  gdbm-libs-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  libeconf-0.6.2-4.el10.x86_64
+DEBUG util.py:463:  dwz-0.16-1.el10.x86_64
+DEBUG util.py:463:  mpfr-4.2.1-8.el10.x86_64
+DEBUG util.py:463:  gawk-5.3.0-6.el10.x86_64
+DEBUG util.py:463:  unzip-6.0-69.el10.x86_64
+DEBUG util.py:463:  file-libs-5.45-9.el10.x86_64
+DEBUG util.py:463:  file-5.45-9.el10.x86_64
+DEBUG util.py:463:  alternatives-1.30-2.el10.x86_64
+DEBUG util.py:463:  jansson-2.14-3.el10.x86_64
+DEBUG util.py:463:  libcap-ng-0.8.4-6.el10.x86_64
+DEBUG util.py:463:  audit-libs-4.0.3-5.el10.x86_64
+DEBUG util.py:463:  pam-libs-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libcap-2.69-7.el10_2.1.x86_64
+DEBUG util.py:463:  systemd-libs-257-23.el10_2.2.alma.1.x86_64
+DEBUG util.py:463:  libffi-3.4.4-10.el10.x86_64
+DEBUG util.py:463:  libsepol-3.10-1.el10.x86_64
+DEBUG util.py:463:  libsmartcols-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libtasn1-4.20.0-5.el10_2.x86_64
+DEBUG util.py:463:  libunistring-1.1-10.el10.x86_64
+DEBUG util.py:463:  libidn2-2.3.7-3.el10.x86_64
+DEBUG util.py:463:  lua-libs-5.4.6-7.el10.x86_64
+DEBUG util.py:463:  lz4-libs-1.9.4-8.el10.x86_64
+DEBUG util.py:463:  pcre2-10.44-1.el10.3.x86_64
+DEBUG util.py:463:  libselinux-3.10-1.el10.x86_64
+DEBUG util.py:463:  sed-4.9-5.el10.x86_64
+DEBUG util.py:463:  findutils-4.10.0-5.el10.x86_64
+DEBUG util.py:463:  grep-3.11-10.el10.x86_64
+DEBUG util.py:463:  xz-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libmount-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  util-linux-core-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libsemanage-3.10-1.el10.x86_64
+DEBUG util.py:463:  shadow-utils-4.15.0-11.el10.x86_64
+DEBUG util.py:463:  libutempter-1.2.1-15.el10.x86_64
+DEBUG util.py:463:  tar-1.35-11.el10.x86_64
+DEBUG util.py:463:  zstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  libpsl-0.21.5-6.el10.x86_64
+DEBUG util.py:463:  p11-kit-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  p11-kit-trust-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  openssl-fips-provider-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  openssl-libs-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  coreutils-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  ca-certificates-2025.2.80_v9.0.305-102.el10_1.noarch
+DEBUG util.py:463:  authselect-libs-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  gzip-1.13-3.el10.x86_64
+DEBUG util.py:463:  cracklib-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  cracklib-dicts-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  libpwquality-1.4.5-12.el10.x86_64
+DEBUG util.py:463:  libevent-2.1.12-16.el10.x86_64
+DEBUG util.py:463:  rpm-sequoia-1.10.1.1-2.el10.x86_64
+DEBUG util.py:463:  zip-3.0-45.el10.x86_64
+DEBUG util.py:463:  cyrus-sasl-lib-2.1.28-30.el10_2.x86_64
+DEBUG util.py:463:  openldap-2.6.10-1.el10.x86_64
+DEBUG util.py:463:  gdbm-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  pam-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libfdisk-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libxml2-2.12.5-10.el10_2.1.x86_64
+DEBUG util.py:463:  libarchive-3.7.7-8.el10_1.x86_64
+DEBUG util.py:463:  bzip2-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  sqlite-libs-3.46.1-5.el10_1.x86_64
+DEBUG util.py:463:  rpm-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  ed-1.20-5.el10.x86_64
+DEBUG util.py:463:  patch-2.7.6-26.el10.x86_64
+DEBUG util.py:463:  elfutils-default-yama-scope-0.194-2.el10_2.noarch
+DEBUG util.py:463:  cpio-2.15-3.el10.x86_64
+DEBUG util.py:463:  diffutils-3.10-8.el10.x86_64
+DEBUG util.py:463:  json-c-0.18-3.el10.x86_64
+DEBUG util.py:463:  keyutils-libs-1.6.3-5.el10.x86_64
+DEBUG util.py:463:  libbrotli-1.1.0-7.el10_1.x86_64
+DEBUG util.py:463:  libcbor-0.11.0-3.el10.x86_64
+DEBUG util.py:463:  libfido2-1.14.0-7.el10.x86_64
+DEBUG util.py:463:  libcom_err-1.47.1-5.el10.x86_64
+DEBUG util.py:463:  libgomp-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libnghttp2-1.68.0-3.el10_2.1.x86_64
+DEBUG util.py:463:  libpkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-pkg-config-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  libverto-0.3.2-10.el10.x86_64
+DEBUG util.py:463:  krb5-libs-1.21.3-10.el10_2.x86_64
+DEBUG util.py:463:  libssh-0.12.0-2.el10.x86_64
+DEBUG util.py:463:  libcurl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  elfutils-libs-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  elfutils-debuginfod-client-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  binutils-gold-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  binutils-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  elfutils-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  gdb-minimal-16.3-3.el10.x86_64
+DEBUG util.py:463:  debugedit-5.1-8.el10.x86_64
+DEBUG util.py:463:  rpm-build-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  curl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  rpm-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  efi-srpm-macros-6-6.el10.alma.1.noarch
+DEBUG util.py:463:  lua-srpm-macros-1-15.el10.noarch
+DEBUG util.py:463:  fonts-srpm-macros-2.0.5-18.el10.noarch
+DEBUG util.py:463:  forge-srpm-macros-0.4.0-6.el10.noarch
+DEBUG util.py:463:  go-srpm-macros-3.8.0-1.el10.noarch
+DEBUG util.py:463:  python-srpm-macros-3.12-11.el10.noarch
+DEBUG util.py:463:  redhat-rpm-config-295-1.el10.alma.1.noarch
+DEBUG util.py:463:  rpm-build-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  pyproject-srpm-macros-1.18.5-1.el10.noarch
+DEBUG util.py:463:  R-srpm-macros-1.3.7-1.el10_2.noarch
+DEBUG util.py:463:  epel-rpm-macros-10-7.el10_2.noarch
+DEBUG util.py:463:  util-linux-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  authselect-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  which-2.21-44.el10_0.x86_64
+DEBUG util.py:463:  info-7.1-6.el10.x86_64
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/proc
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/proc
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/sys
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/sys
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/dev/shm
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/dev/pts
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/alma+epel-10-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/installation-homedir
+DEBUG package_manager.py:295:  ['/usr/bin/dnf-3', '--installroot', '/var/lib/mock/alma+epel-10-x86_64/root/', '-y', '--releasever', '10', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'update']
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'e748a88aefed465f86dbb159aa4c0226', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/var/lib/mock/alma+epel-10-x86_64/root/installation-homedir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--setenv=LC_MESSAGES=C.UTF-8', '--resolv-conf=off', '/usr/bin/dnf-3', '--installroot', '/var/lib/mock/alma+epel-10-x86_64/root/', '-y', '--releasever', '10', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'update'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/alma+epel-10-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:461:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+DEBUG util.py:463:  AlmaLinux 10 - BaseOS                                                                                                                                        3.8 kB/s | 3.8 kB     00:00    
+DEBUG util.py:463:  AlmaLinux 10 - AppStream                                                                                                                                     4.0 kB/s | 3.8 kB     00:00    
+DEBUG util.py:463:  AlmaLinux 10 - CRB                                                                                                                                           3.2 kB/s | 3.8 kB     00:01    
+DEBUG util.py:463:  AlmaLinux 10 - Extras                                                                                                                                        3.5 kB/s | 3.5 kB     00:01    
+DEBUG util.py:463:  Extra Packages for Enterprise Linux 10 - x86_64                                                                                                              7.2 kB/s |  10 kB     00:01    
+DEBUG util.py:463:  Dependencies resolved.
+DEBUG util.py:463:  Nothing to do.
+DEBUG util.py:463:  Complete!
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '17cc4a61be174c0b91511b511d778503', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qa', '--root', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:463:  gpg-pubkey-c2a1e572-668fe8ef
+DEBUG util.py:463:  gpg-pubkey-e37ed158-65785fa9
+DEBUG util.py:463:  libgcc-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  ghc-srpm-macros-1.9.2-1.el10_0.noarch
+DEBUG util.py:463:  fpc-srpm-macros-1.3-7.el10_1.noarch
+DEBUG util.py:463:  ansible-srpm-macros-1-21.el10_2.noarch
+DEBUG util.py:463:  rust-toolset-srpm-macros-1.92.0-1.el10.alma.1.noarch
+DEBUG util.py:463:  qt6-srpm-macros-6.10.1-1.el10.noarch
+DEBUG util.py:463:  perl-srpm-macros-1-57.el10.noarch
+DEBUG util.py:463:  package-notes-srpm-macros-0.5-13.el10.noarch
+DEBUG util.py:463:  openblas-srpm-macros-2-19.el10.noarch
+DEBUG util.py:463:  ocaml-srpm-macros-10-4.el10.noarch
+DEBUG util.py:463:  kernel-srpm-macros-1.0-27.el10.noarch
+DEBUG util.py:463:  publicsuffix-list-dafsa-20240107-5.el10.noarch
+DEBUG util.py:463:  pkgconf-m4-2.1.0-3.el10.noarch
+DEBUG util.py:463:  pcre2-syntax-10.44-1.el10.3.noarch
+DEBUG util.py:463:  ncurses-base-6.4-15.20240127.el10_1.noarch
+DEBUG util.py:463:  libssh-config-0.12.0-2.el10.noarch
+DEBUG util.py:463:  coreutils-common-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  almalinux-gpg-keys-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-release-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-repos-10.2-21.el10.x86_64
+DEBUG util.py:463:  setup-2.14.5-7.el10.noarch
+DEBUG util.py:463:  filesystem-3.18-17.el10.x86_64
+DEBUG util.py:463:  basesystem-11-22.el10.noarch
+DEBUG util.py:463:  glibc-gconv-extra-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  ncurses-libs-6.4-15.20240127.el10_1.x86_64
+DEBUG util.py:463:  glibc-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  bash-5.2.26-6.el10.x86_64
+DEBUG util.py:463:  glibc-common-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  glibc-minimal-langpack-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  zlib-ng-compat-2.2.3-3.el10_1.x86_64
+DEBUG util.py:463:  bzip2-libs-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  xz-libs-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libstdc++-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libuuid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  popt-1.19-8.el10.x86_64
+DEBUG util.py:463:  readline-8.2-11.el10.x86_64
+DEBUG util.py:463:  libblkid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  gmp-6.2.1-12.el10.x86_64
+DEBUG util.py:463:  libattr-2.5.2-5.el10.x86_64
+DEBUG util.py:463:  libacl-2.3.2-4.el10.x86_64
+DEBUG util.py:463:  libxcrypt-4.4.36-10.el10.x86_64
+DEBUG util.py:463:  libzstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  elfutils-libelf-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  crypto-policies-20260216-1.git0e54016.el10.alma.1.noarch
+DEBUG util.py:463:  gdbm-libs-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  libeconf-0.6.2-4.el10.x86_64
+DEBUG util.py:463:  dwz-0.16-1.el10.x86_64
+DEBUG util.py:463:  mpfr-4.2.1-8.el10.x86_64
+DEBUG util.py:463:  gawk-5.3.0-6.el10.x86_64
+DEBUG util.py:463:  unzip-6.0-69.el10.x86_64
+DEBUG util.py:463:  file-libs-5.45-9.el10.x86_64
+DEBUG util.py:463:  file-5.45-9.el10.x86_64
+DEBUG util.py:463:  alternatives-1.30-2.el10.x86_64
+DEBUG util.py:463:  jansson-2.14-3.el10.x86_64
+DEBUG util.py:463:  libcap-ng-0.8.4-6.el10.x86_64
+DEBUG util.py:463:  audit-libs-4.0.3-5.el10.x86_64
+DEBUG util.py:463:  pam-libs-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libcap-2.69-7.el10_2.1.x86_64
+DEBUG util.py:463:  systemd-libs-257-23.el10_2.2.alma.1.x86_64
+DEBUG util.py:463:  libffi-3.4.4-10.el10.x86_64
+DEBUG util.py:463:  libsepol-3.10-1.el10.x86_64
+DEBUG util.py:463:  libsmartcols-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libtasn1-4.20.0-5.el10_2.x86_64
+DEBUG util.py:463:  libunistring-1.1-10.el10.x86_64
+DEBUG util.py:463:  libidn2-2.3.7-3.el10.x86_64
+DEBUG util.py:463:  lua-libs-5.4.6-7.el10.x86_64
+DEBUG util.py:463:  lz4-libs-1.9.4-8.el10.x86_64
+DEBUG util.py:463:  pcre2-10.44-1.el10.3.x86_64
+DEBUG util.py:463:  libselinux-3.10-1.el10.x86_64
+DEBUG util.py:463:  sed-4.9-5.el10.x86_64
+DEBUG util.py:463:  findutils-4.10.0-5.el10.x86_64
+DEBUG util.py:463:  grep-3.11-10.el10.x86_64
+DEBUG util.py:463:  xz-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libmount-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  util-linux-core-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libsemanage-3.10-1.el10.x86_64
+DEBUG util.py:463:  shadow-utils-4.15.0-11.el10.x86_64
+DEBUG util.py:463:  libutempter-1.2.1-15.el10.x86_64
+DEBUG util.py:463:  tar-1.35-11.el10.x86_64
+DEBUG util.py:463:  zstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  libpsl-0.21.5-6.el10.x86_64
+DEBUG util.py:463:  p11-kit-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  p11-kit-trust-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  openssl-fips-provider-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  openssl-libs-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  coreutils-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  ca-certificates-2025.2.80_v9.0.305-102.el10_1.noarch
+DEBUG util.py:463:  authselect-libs-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  gzip-1.13-3.el10.x86_64
+DEBUG util.py:463:  cracklib-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  cracklib-dicts-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  libpwquality-1.4.5-12.el10.x86_64
+DEBUG util.py:463:  libevent-2.1.12-16.el10.x86_64
+DEBUG util.py:463:  rpm-sequoia-1.10.1.1-2.el10.x86_64
+DEBUG util.py:463:  zip-3.0-45.el10.x86_64
+DEBUG util.py:463:  cyrus-sasl-lib-2.1.28-30.el10_2.x86_64
+DEBUG util.py:463:  openldap-2.6.10-1.el10.x86_64
+DEBUG util.py:463:  gdbm-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  pam-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libfdisk-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libxml2-2.12.5-10.el10_2.1.x86_64
+DEBUG util.py:463:  libarchive-3.7.7-8.el10_1.x86_64
+DEBUG util.py:463:  bzip2-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  sqlite-libs-3.46.1-5.el10_1.x86_64
+DEBUG util.py:463:  rpm-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  ed-1.20-5.el10.x86_64
+DEBUG util.py:463:  patch-2.7.6-26.el10.x86_64
+DEBUG util.py:463:  elfutils-default-yama-scope-0.194-2.el10_2.noarch
+DEBUG util.py:463:  cpio-2.15-3.el10.x86_64
+DEBUG util.py:463:  diffutils-3.10-8.el10.x86_64
+DEBUG util.py:463:  json-c-0.18-3.el10.x86_64
+DEBUG util.py:463:  keyutils-libs-1.6.3-5.el10.x86_64
+DEBUG util.py:463:  libbrotli-1.1.0-7.el10_1.x86_64
+DEBUG util.py:463:  libcbor-0.11.0-3.el10.x86_64
+DEBUG util.py:463:  libfido2-1.14.0-7.el10.x86_64
+DEBUG util.py:463:  libcom_err-1.47.1-5.el10.x86_64
+DEBUG util.py:463:  libgomp-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libnghttp2-1.68.0-3.el10_2.1.x86_64
+DEBUG util.py:463:  libpkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-pkg-config-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  libverto-0.3.2-10.el10.x86_64
+DEBUG util.py:463:  krb5-libs-1.21.3-10.el10_2.x86_64
+DEBUG util.py:463:  libssh-0.12.0-2.el10.x86_64
+DEBUG util.py:463:  libcurl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  elfutils-libs-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  elfutils-debuginfod-client-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  binutils-gold-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  binutils-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  elfutils-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  gdb-minimal-16.3-3.el10.x86_64
+DEBUG util.py:463:  debugedit-5.1-8.el10.x86_64
+DEBUG util.py:463:  rpm-build-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  curl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  rpm-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  efi-srpm-macros-6-6.el10.alma.1.noarch
+DEBUG util.py:463:  lua-srpm-macros-1-15.el10.noarch
+DEBUG util.py:463:  fonts-srpm-macros-2.0.5-18.el10.noarch
+DEBUG util.py:463:  forge-srpm-macros-0.4.0-6.el10.noarch
+DEBUG util.py:463:  go-srpm-macros-3.8.0-1.el10.noarch
+DEBUG util.py:463:  python-srpm-macros-3.12-11.el10.noarch
+DEBUG util.py:463:  redhat-rpm-config-295-1.el10.alma.1.noarch
+DEBUG util.py:463:  rpm-build-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  pyproject-srpm-macros-1.18.5-1.el10.noarch
+DEBUG util.py:463:  R-srpm-macros-1.3.7-1.el10_2.noarch
+DEBUG util.py:463:  epel-rpm-macros-10-7.el10_2.noarch
+DEBUG util.py:463:  util-linux-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  authselect-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  which-2.21-44.el10_0.x86_64
+DEBUG util.py:463:  info-7.1-6.el10.x86_64
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/RPMS
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/RPMS
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/SPECS
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/SPECS
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/SRPMS
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/SRPMS
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/SOURCES
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/BUILD
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/BUILD
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/BUILDROOT
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/BUILDROOT
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/originals
+DEBUG file_util.py:20:  created dir: /var/lib/mock/alma+epel-10-x86_64/root/builddir/build/originals
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/builddir
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['userdel', '-f', 'mockbuild', '--prefix', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['groupdel', 'mock', '--prefix', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['groupadd', 'mock', '-g', '135', '--prefix', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['useradd', 'mockbuild', '-o', '-u', '0', '-g', '135', '-N', '-d', '/builddir', '--prefix', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:461:  useradd warning: mockbuild's uid 0 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+DEBUG util.py:461:  useradd: warning: the home directory /builddir already exists.
+DEBUG util.py:461:  useradd: Not copying any file from skel directory into it.
+DEBUG util.py:461:  Creating mailbox file: File exists
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:29:  touching file: /var/lib/mock/alma+epel-10-x86_64/root/.initialized
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'ae23e06cd6b74d0d979c7e589d133556', '-D', '/var/lib/mock/alma+epel-10-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-Uvh', '--nodeps', '/builddir/build/originals/yajl-2.1.0-25.el10.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:463:  Updating / installing...
+DEBUG util.py:463:  yajl-2.1.0-25.el10                    ########################################
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'c45d4bf5864c42aa8d6d9562180bf238', '-D', '/var/lib/mock/alma+epel-10-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qpl', '/builddir/build/originals/yajl-2.1.0-25.el10.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:463:  2.1.0.tar.gz
+DEBUG util.py:463:  23a122eddaa28165a6c219000adcc31ff9a8a698.patch
+DEBUG util.py:463:  3d65cb0c6db4d433e5e42ee7d91d8a04e21337cf.patch
+DEBUG util.py:463:  49923ccb2143e36850bcdeb781e2bcdf5ce22f15.patch
+DEBUG util.py:463:  yajl-2.1.0-CVE-2022-24795.patch
+DEBUG util.py:463:  yajl-2.1.0-dynlink-binaries.patch
+DEBUG util.py:463:  yajl-2.1.0-pkgconfig-includedir.patch
+DEBUG util.py:463:  yajl-2.1.0-pkgconfig-location.patch
+DEBUG util.py:463:  yajl-2.1.0-test-location.patch
+DEBUG util.py:463:  yajl.spec
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '0947c7db069448fdba2aaeaa4af8b4f7', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qa', '--root', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:463:  gpg-pubkey-c2a1e572-668fe8ef
+DEBUG util.py:463:  gpg-pubkey-e37ed158-65785fa9
+DEBUG util.py:463:  libgcc-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  ghc-srpm-macros-1.9.2-1.el10_0.noarch
+DEBUG util.py:463:  fpc-srpm-macros-1.3-7.el10_1.noarch
+DEBUG util.py:463:  ansible-srpm-macros-1-21.el10_2.noarch
+DEBUG util.py:463:  rust-toolset-srpm-macros-1.92.0-1.el10.alma.1.noarch
+DEBUG util.py:463:  qt6-srpm-macros-6.10.1-1.el10.noarch
+DEBUG util.py:463:  perl-srpm-macros-1-57.el10.noarch
+DEBUG util.py:463:  package-notes-srpm-macros-0.5-13.el10.noarch
+DEBUG util.py:463:  openblas-srpm-macros-2-19.el10.noarch
+DEBUG util.py:463:  ocaml-srpm-macros-10-4.el10.noarch
+DEBUG util.py:463:  kernel-srpm-macros-1.0-27.el10.noarch
+DEBUG util.py:463:  publicsuffix-list-dafsa-20240107-5.el10.noarch
+DEBUG util.py:463:  pkgconf-m4-2.1.0-3.el10.noarch
+DEBUG util.py:463:  pcre2-syntax-10.44-1.el10.3.noarch
+DEBUG util.py:463:  ncurses-base-6.4-15.20240127.el10_1.noarch
+DEBUG util.py:463:  libssh-config-0.12.0-2.el10.noarch
+DEBUG util.py:463:  coreutils-common-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  almalinux-gpg-keys-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-release-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-repos-10.2-21.el10.x86_64
+DEBUG util.py:463:  setup-2.14.5-7.el10.noarch
+DEBUG util.py:463:  filesystem-3.18-17.el10.x86_64
+DEBUG util.py:463:  basesystem-11-22.el10.noarch
+DEBUG util.py:463:  glibc-gconv-extra-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  ncurses-libs-6.4-15.20240127.el10_1.x86_64
+DEBUG util.py:463:  glibc-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  bash-5.2.26-6.el10.x86_64
+DEBUG util.py:463:  glibc-common-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  glibc-minimal-langpack-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  zlib-ng-compat-2.2.3-3.el10_1.x86_64
+DEBUG util.py:463:  bzip2-libs-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  xz-libs-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libstdc++-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libuuid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  popt-1.19-8.el10.x86_64
+DEBUG util.py:463:  readline-8.2-11.el10.x86_64
+DEBUG util.py:463:  libblkid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  gmp-6.2.1-12.el10.x86_64
+DEBUG util.py:463:  libattr-2.5.2-5.el10.x86_64
+DEBUG util.py:463:  libacl-2.3.2-4.el10.x86_64
+DEBUG util.py:463:  libxcrypt-4.4.36-10.el10.x86_64
+DEBUG util.py:463:  libzstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  elfutils-libelf-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  crypto-policies-20260216-1.git0e54016.el10.alma.1.noarch
+DEBUG util.py:463:  gdbm-libs-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  libeconf-0.6.2-4.el10.x86_64
+DEBUG util.py:463:  dwz-0.16-1.el10.x86_64
+DEBUG util.py:463:  mpfr-4.2.1-8.el10.x86_64
+DEBUG util.py:463:  gawk-5.3.0-6.el10.x86_64
+DEBUG util.py:463:  unzip-6.0-69.el10.x86_64
+DEBUG util.py:463:  file-libs-5.45-9.el10.x86_64
+DEBUG util.py:463:  file-5.45-9.el10.x86_64
+DEBUG util.py:463:  alternatives-1.30-2.el10.x86_64
+DEBUG util.py:463:  jansson-2.14-3.el10.x86_64
+DEBUG util.py:463:  libcap-ng-0.8.4-6.el10.x86_64
+DEBUG util.py:463:  audit-libs-4.0.3-5.el10.x86_64
+DEBUG util.py:463:  pam-libs-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libcap-2.69-7.el10_2.1.x86_64
+DEBUG util.py:463:  systemd-libs-257-23.el10_2.2.alma.1.x86_64
+DEBUG util.py:463:  libffi-3.4.4-10.el10.x86_64
+DEBUG util.py:463:  libsepol-3.10-1.el10.x86_64
+DEBUG util.py:463:  libsmartcols-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libtasn1-4.20.0-5.el10_2.x86_64
+DEBUG util.py:463:  libunistring-1.1-10.el10.x86_64
+DEBUG util.py:463:  libidn2-2.3.7-3.el10.x86_64
+DEBUG util.py:463:  lua-libs-5.4.6-7.el10.x86_64
+DEBUG util.py:463:  lz4-libs-1.9.4-8.el10.x86_64
+DEBUG util.py:463:  pcre2-10.44-1.el10.3.x86_64
+DEBUG util.py:463:  libselinux-3.10-1.el10.x86_64
+DEBUG util.py:463:  sed-4.9-5.el10.x86_64
+DEBUG util.py:463:  findutils-4.10.0-5.el10.x86_64
+DEBUG util.py:463:  grep-3.11-10.el10.x86_64
+DEBUG util.py:463:  xz-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libmount-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  util-linux-core-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libsemanage-3.10-1.el10.x86_64
+DEBUG util.py:463:  shadow-utils-4.15.0-11.el10.x86_64
+DEBUG util.py:463:  libutempter-1.2.1-15.el10.x86_64
+DEBUG util.py:463:  tar-1.35-11.el10.x86_64
+DEBUG util.py:463:  zstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  libpsl-0.21.5-6.el10.x86_64
+DEBUG util.py:463:  p11-kit-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  p11-kit-trust-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  openssl-fips-provider-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  openssl-libs-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  coreutils-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  ca-certificates-2025.2.80_v9.0.305-102.el10_1.noarch
+DEBUG util.py:463:  authselect-libs-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  gzip-1.13-3.el10.x86_64
+DEBUG util.py:463:  cracklib-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  cracklib-dicts-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  libpwquality-1.4.5-12.el10.x86_64
+DEBUG util.py:463:  libevent-2.1.12-16.el10.x86_64
+DEBUG util.py:463:  rpm-sequoia-1.10.1.1-2.el10.x86_64
+DEBUG util.py:463:  zip-3.0-45.el10.x86_64
+DEBUG util.py:463:  cyrus-sasl-lib-2.1.28-30.el10_2.x86_64
+DEBUG util.py:463:  openldap-2.6.10-1.el10.x86_64
+DEBUG util.py:463:  gdbm-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  pam-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libfdisk-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libxml2-2.12.5-10.el10_2.1.x86_64
+DEBUG util.py:463:  libarchive-3.7.7-8.el10_1.x86_64
+DEBUG util.py:463:  bzip2-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  sqlite-libs-3.46.1-5.el10_1.x86_64
+DEBUG util.py:463:  rpm-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  ed-1.20-5.el10.x86_64
+DEBUG util.py:463:  patch-2.7.6-26.el10.x86_64
+DEBUG util.py:463:  elfutils-default-yama-scope-0.194-2.el10_2.noarch
+DEBUG util.py:463:  cpio-2.15-3.el10.x86_64
+DEBUG util.py:463:  diffutils-3.10-8.el10.x86_64
+DEBUG util.py:463:  json-c-0.18-3.el10.x86_64
+DEBUG util.py:463:  keyutils-libs-1.6.3-5.el10.x86_64
+DEBUG util.py:463:  libbrotli-1.1.0-7.el10_1.x86_64
+DEBUG util.py:463:  libcbor-0.11.0-3.el10.x86_64
+DEBUG util.py:463:  libfido2-1.14.0-7.el10.x86_64
+DEBUG util.py:463:  libcom_err-1.47.1-5.el10.x86_64
+DEBUG util.py:463:  libgomp-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libnghttp2-1.68.0-3.el10_2.1.x86_64
+DEBUG util.py:463:  libpkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-pkg-config-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  libverto-0.3.2-10.el10.x86_64
+DEBUG util.py:463:  krb5-libs-1.21.3-10.el10_2.x86_64
+DEBUG util.py:463:  libssh-0.12.0-2.el10.x86_64
+DEBUG util.py:463:  libcurl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  elfutils-libs-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  elfutils-debuginfod-client-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  binutils-gold-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  binutils-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  elfutils-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  gdb-minimal-16.3-3.el10.x86_64
+DEBUG util.py:463:  debugedit-5.1-8.el10.x86_64
+DEBUG util.py:463:  rpm-build-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  curl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  rpm-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  efi-srpm-macros-6-6.el10.alma.1.noarch
+DEBUG util.py:463:  lua-srpm-macros-1-15.el10.noarch
+DEBUG util.py:463:  fonts-srpm-macros-2.0.5-18.el10.noarch
+DEBUG util.py:463:  forge-srpm-macros-0.4.0-6.el10.noarch
+DEBUG util.py:463:  go-srpm-macros-3.8.0-1.el10.noarch
+DEBUG util.py:463:  python-srpm-macros-3.12-11.el10.noarch
+DEBUG util.py:463:  redhat-rpm-config-295-1.el10.alma.1.noarch
+DEBUG util.py:463:  rpm-build-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  pyproject-srpm-macros-1.18.5-1.el10.noarch
+DEBUG util.py:463:  R-srpm-macros-1.3.7-1.el10_2.noarch
+DEBUG util.py:463:  epel-rpm-macros-10-7.el10_2.noarch
+DEBUG util.py:463:  util-linux-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  authselect-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  which-2.21-44.el10_0.x86_64
+DEBUG util.py:463:  info-7.1-6.el10.x86_64
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'ef32074403c348b1a4a51cc9764ab576', '-D', '/var/lib/mock/alma+epel-10-x86_64/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.85pylehf:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/sh', '-c', 'case $(rpmbuild --help) in *--noclean*) exit 0; esac; exit 1'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/proc
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/proc
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/sys
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/sys
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/dev/shm
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/dev/pts
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/alma+epel-10-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/installation-homedir
+DEBUG package_manager.py:295:  ['/usr/bin/dnf-3', 'builddep', '--installroot', '/var/lib/mock/alma+epel-10-x86_64/root/', '--releasever', '10', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/var/lib/mock/alma+epel-10-x86_64/root//builddir/build/SRPMS/yajl-2.1.0-25.el10.src.rpm']
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '7449b3d8b8b84eaab4e1ef303369a57d', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/var/lib/mock/alma+epel-10-x86_64/root/installation-homedir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--setenv=LC_MESSAGES=C.UTF-8', '--resolv-conf=off', '/usr/bin/dnf-3', 'builddep', '--installroot', '/var/lib/mock/alma+epel-10-x86_64/root/', '--releasever', '10', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/var/lib/mock/alma+epel-10-x86_64/root//builddir/build/SRPMS/yajl-2.1.0-25.el10.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/alma+epel-10-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:461:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+DEBUG util.py:463:  AlmaLinux 10 - BaseOS                                                                                                                                        3.6 kB/s | 3.8 kB     00:01    
+DEBUG util.py:463:  AlmaLinux 10 - AppStream                                                                                                                                     3.7 kB/s | 3.8 kB     00:01    
+DEBUG util.py:463:  AlmaLinux 10 - CRB                                                                                                                                           3.0 kB/s | 3.8 kB     00:01    
+DEBUG util.py:463:  AlmaLinux 10 - Extras                                                                                                                                        2.8 kB/s | 3.5 kB     00:01    
+DEBUG util.py:463:  Extra Packages for Enterprise Linux 10 - x86_64                                                                                                              8.8 kB/s |  10 kB     00:01    
+DEBUG util.py:463:  Dependencies resolved.
+DEBUG util.py:463:  =============================================================================================================================================================================================
+DEBUG util.py:463:   Package                                          Architecture                         Version                                                 Repository                               Size
+DEBUG util.py:463:  =============================================================================================================================================================================================
+DEBUG util.py:463:  Installing:
+DEBUG util.py:463:   cmake                                            x86_64                               3.31.8-1.el10                                           appstream                                13 M
+DEBUG util.py:463:   gcc                                              x86_64                               14.3.1-4.4.el10.alma.2                                  appstream                                38 M
+DEBUG util.py:463:   git-core                                         x86_64                               2.52.0-1.el10                                           appstream                               5.1 M
+DEBUG util.py:463:  Installing dependencies:
+DEBUG util.py:463:   annobin-docs                                     noarch                               13.02-2.el10                                            appstream                                87 k
+DEBUG util.py:463:   annobin-plugin-gcc                               x86_64                               13.02-2.el10                                            appstream                               994 k
+DEBUG util.py:463:   cmake-data                                       noarch                               3.31.8-1.el10                                           appstream                               1.9 M
+DEBUG util.py:463:   cmake-filesystem                                 x86_64                               3.31.8-1.el10                                           appstream                                13 k
+DEBUG util.py:463:   cmake-rpm-macros                                 noarch                               3.31.8-1.el10                                           appstream                                12 k
+DEBUG util.py:463:   cpp                                              x86_64                               14.3.1-4.4.el10.alma.2                                  appstream                                13 M
+DEBUG util.py:463:   emacs-filesystem                                 noarch                               1:29.4-12.el10                                          baseos                                  9.1 k
+DEBUG util.py:463:   expat                                            x86_64                               2.7.3-1.el10_2.1                                        baseos                                  119 k
+DEBUG util.py:463:   gcc-plugin-annobin                               x86_64                               14.3.1-4.4.el10.alma.2                                  appstream                                62 k
+DEBUG util.py:463:   glibc-devel                                      x86_64                               2.39-126.el10_2.alma.1                                  appstream                               472 k
+DEBUG util.py:463:   kernel-headers                                   x86_64                               6.12.0-211.29.1.el10_2                                  appstream                               1.7 M
+DEBUG util.py:463:   less                                             x86_64                               661-3.el10                                              baseos                                  193 k
+DEBUG util.py:463:   libedit                                          x86_64                               3.1-52.20230828cvs.el10                                 baseos                                  105 k
+DEBUG util.py:463:   libmpc                                           x86_64                               1.3.1-7.el10                                            appstream                                71 k
+DEBUG util.py:463:   libuv                                            x86_64                               1:1.52.1-1.el10_2                                       appstream                               265 k
+DEBUG util.py:463:   libxcrypt-devel                                  x86_64                               4.4.36-10.el10                                          appstream                                33 k
+DEBUG util.py:463:   make                                             x86_64                               1:4.4.1-9.el10                                          baseos                                  589 k
+DEBUG util.py:463:   mpdecimal                                        x86_64                               2.5.1-12.el10                                           baseos                                   89 k
+DEBUG util.py:463:   openssh                                          x86_64                               9.9p1-23.el10_2.alma.1                                  baseos                                  347 k
+DEBUG util.py:463:   openssh-clients                                  x86_64                               9.9p1-23.el10_2.alma.1                                  baseos                                  746 k
+DEBUG util.py:463:   python3                                          x86_64                               3.12.13-2.el10_2                                        baseos                                   28 k
+DEBUG util.py:463:   python3-libs                                     x86_64                               3.12.13-2.el10_2                                        baseos                                  8.9 M
+DEBUG util.py:463:   python3-pip-wheel                                noarch                               23.3.2-11.el10_2                                        baseos                                  1.5 M
+DEBUG util.py:463:   tzdata                                           noarch                               2026b-1.el10.alma.1                                     baseos                                  497 k
+DEBUG util.py:463:   vim-filesystem                                   noarch                               2:9.1.083-9.el10_2.4                                    baseos                                   11 k
+DEBUG util.py:463:  Transaction Summary
+DEBUG util.py:463:  =============================================================================================================================================================================================
+DEBUG util.py:463:  Install  28 Packages
+DEBUG util.py:463:  Total size: 87 M
+DEBUG util.py:463:  Total download size: 23 M
+DEBUG util.py:463:  Installed size: 278 M
+DEBUG util.py:463:  Downloading Packages:
+DEBUG util.py:463:  [SKIPPED] expat-2.7.3-1.el10_2.1.x86_64.rpm: Already downloaded                                                                                                                             
+DEBUG util.py:463:  [SKIPPED] make-4.4.1-9.el10.x86_64.rpm: Already downloaded                                                                                                                                  
+DEBUG util.py:463:  [SKIPPED] mpdecimal-2.5.1-12.el10.x86_64.rpm: Already downloaded                                                                                                                            
+DEBUG util.py:463:  [SKIPPED] python3-3.12.13-2.el10_2.x86_64.rpm: Already downloaded                                                                                                                           
+DEBUG util.py:463:  [SKIPPED] python3-libs-3.12.13-2.el10_2.x86_64.rpm: Already downloaded                                                                                                                      
+DEBUG util.py:463:  [SKIPPED] python3-pip-wheel-23.3.2-11.el10_2.noarch.rpm: Already downloaded                                                                                                                 
+DEBUG util.py:463:  [SKIPPED] tzdata-2026b-1.el10.alma.1.noarch.rpm: Already downloaded                                                                                                                         
+DEBUG util.py:463:  [SKIPPED] annobin-docs-13.02-2.el10.noarch.rpm: Already downloaded                                                                                                                          
+DEBUG util.py:463:  [SKIPPED] annobin-plugin-gcc-13.02-2.el10.x86_64.rpm: Already downloaded                                                                                                                    
+DEBUG util.py:463:  [SKIPPED] cmake-filesystem-3.31.8-1.el10.x86_64.rpm: Already downloaded                                                                                                                     
+DEBUG util.py:463:  [SKIPPED] cpp-14.3.1-4.4.el10.alma.2.x86_64.rpm: Already downloaded                                                                                                                         
+DEBUG util.py:463:  [SKIPPED] gcc-14.3.1-4.4.el10.alma.2.x86_64.rpm: Already downloaded                                                                                                                         
+DEBUG util.py:463:  [SKIPPED] gcc-plugin-annobin-14.3.1-4.4.el10.alma.2.x86_64.rpm: Already downloaded                                                                                                          
+DEBUG util.py:463:  [SKIPPED] libmpc-1.3.1-7.el10.x86_64.rpm: Already downloaded                                                                                                                                
+DEBUG util.py:463:  [SKIPPED] libxcrypt-devel-4.4.36-10.el10.x86_64.rpm: Already downloaded                                                                                                                     
+DEBUG util.py:463:  (16/28): emacs-filesystem-29.4-12.el10.noarch.rpm                                                                                                             52 kB/s | 9.1 kB     00:00    
+DEBUG util.py:463:  (17/28): libedit-3.1-52.20230828cvs.el10.x86_64.rpm                                                                                                          294 kB/s | 105 kB     00:00    
+DEBUG util.py:463:  (18/28): less-661-3.el10.x86_64.rpm                                                                                                                          413 kB/s | 193 kB     00:00    
+DEBUG util.py:463:  (19/28): openssh-9.9p1-23.el10_2.alma.1.x86_64.rpm                                                                                                           972 kB/s | 347 kB     00:00    
+DEBUG util.py:463:  (20/28): vim-filesystem-9.1.083-9.el10_2.4.noarch.rpm                                                                                                        164 kB/s |  11 kB     00:00    
+DEBUG util.py:463:  (21/28): openssh-clients-9.9p1-23.el10_2.alma.1.x86_64.rpm                                                                                                   1.2 MB/s | 746 kB     00:00    
+DEBUG util.py:463:  (22/28): cmake-rpm-macros-3.31.8-1.el10.noarch.rpm                                                                                                           187 kB/s |  12 kB     00:00    
+DEBUG util.py:463:  (23/28): cmake-data-3.31.8-1.el10.noarch.rpm                                                                                                                 1.6 MB/s | 1.9 MB     00:01    
+DEBUG util.py:463:  (24/28): glibc-devel-2.39-126.el10_2.alma.1.x86_64.rpm                                                                                                       1.7 MB/s | 472 kB     00:00    
+DEBUG util.py:463:  (25/28): cmake-3.31.8-1.el10.x86_64.rpm                                                                                                                      6.2 MB/s |  13 MB     00:02    
+DEBUG util.py:463:  (26/28): libuv-1.52.1-1.el10_2.x86_64.rpm                                                                                                                    2.3 MB/s | 265 kB     00:00    
+DEBUG util.py:463:  (27/28): git-core-2.52.0-1.el10.x86_64.rpm                                                                                                                   2.6 MB/s | 5.1 MB     00:01    
+DEBUG util.py:463:  (28/28): kernel-headers-6.12.0-211.29.1.el10_2.x86_64.rpm                                                                                                    1.6 MB/s | 1.7 MB     00:01    
+DEBUG util.py:463:  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG util.py:463:  Total                                                                                                                                                        5.0 MB/s |  23 MB     00:04     
+DEBUG util.py:463:  Running transaction check
+DEBUG util.py:463:  Transaction check succeeded.
+DEBUG util.py:463:  Running transaction test
+DEBUG util.py:463:  Transaction test succeeded.
+DEBUG util.py:463:  Running transaction
+DEBUG util.py:463:    Preparing        :                                                                                                                                                                     1/1 
+DEBUG util.py:463:    Installing       : expat-2.7.3-1.el10_2.1.x86_64                                                                                                                                      1/28 
+DEBUG util.py:463:    Installing       : libmpc-1.3.1-7.el10.x86_64                                                                                                                                         2/28 
+DEBUG util.py:463:    Installing       : cmake-filesystem-3.31.8-1.el10.x86_64                                                                                                                              3/28 
+DEBUG util.py:463:    Installing       : make-1:4.4.1-9.el10.x86_64                                                                                                                                         4/28 
+DEBUG util.py:463:    Installing       : cpp-14.3.1-4.4.el10.alma.2.x86_64                                                                                                                                  5/28 
+DEBUG util.py:463:    Installing       : libuv-1:1.52.1-1.el10_2.x86_64                                                                                                                                     6/28 
+DEBUG util.py:463:    Installing       : kernel-headers-6.12.0-211.29.1.el10_2.x86_64                                                                                                                       7/28 
+DEBUG util.py:463:    Installing       : libxcrypt-devel-4.4.36-10.el10.x86_64                                                                                                                              8/28 
+DEBUG util.py:463:    Installing       : glibc-devel-2.39-126.el10_2.alma.1.x86_64                                                                                                                          9/28 
+DEBUG util.py:463:    Installing       : gcc-14.3.1-4.4.el10.alma.2.x86_64                                                                                                                                 10/28 
+DEBUG util.py:463:    Running scriptlet: gcc-14.3.1-4.4.el10.alma.2.x86_64                                                                                                                                 10/28 
+DEBUG util.py:463:    Installing       : annobin-docs-13.02-2.el10.noarch                                                                                                                                  11/28 
+DEBUG util.py:463:    Installing       : vim-filesystem-2:9.1.083-9.el10_2.4.noarch                                                                                                                        12/28 
+DEBUG util.py:463:    Installing       : tzdata-2026b-1.el10.alma.1.noarch                                                                                                                                 13/28 
+DEBUG util.py:463:    Installing       : python3-pip-wheel-23.3.2-11.el10_2.noarch                                                                                                                         14/28 
+DEBUG util.py:463:    Installing       : openssh-9.9p1-23.el10_2.alma.1.x86_64                                                                                                                             15/28 
+DEBUG util.py:463:    Installing       : mpdecimal-2.5.1-12.el10.x86_64                                                                                                                                    16/28 
+DEBUG util.py:463:    Installing       : python3-3.12.13-2.el10_2.x86_64                                                                                                                                   17/28 
+DEBUG util.py:463:    Installing       : python3-libs-3.12.13-2.el10_2.x86_64                                                                                                                              18/28 
+DEBUG util.py:463:    Installing       : cmake-rpm-macros-3.31.8-1.el10.noarch                                                                                                                             19/28 
+DEBUG util.py:463:    Installing       : libedit-3.1-52.20230828cvs.el10.x86_64                                                                                                                            20/28 
+DEBUG util.py:463:    Installing       : openssh-clients-9.9p1-23.el10_2.alma.1.x86_64                                                                                                                     21/28 
+DEBUG util.py:463:    Running scriptlet: openssh-clients-9.9p1-23.el10_2.alma.1.x86_64                                                                                                                     21/28 
+DEBUG util.py:463:    Installing       : less-661-3.el10.x86_64                                                                                                                                            22/28 
+DEBUG util.py:463:    Installing       : emacs-filesystem-1:29.4-12.el10.noarch                                                                                                                            23/28 
+DEBUG util.py:463:    Installing       : cmake-3.31.8-1.el10.x86_64                                                                                                                                        24/28 
+DEBUG util.py:463:    Installing       : cmake-data-3.31.8-1.el10.noarch                                                                                                                                   25/28 
+DEBUG util.py:463:    Installing       : git-core-2.52.0-1.el10.x86_64                                                                                                                                     26/28 
+DEBUG util.py:463:    Installing       : annobin-plugin-gcc-13.02-2.el10.x86_64                                                                                                                            27/28 
+DEBUG util.py:463:    Running scriptlet: annobin-plugin-gcc-13.02-2.el10.x86_64                                                                                                                            27/28 
+DEBUG util.py:463:    Installing       : gcc-plugin-annobin-14.3.1-4.4.el10.alma.2.x86_64                                                                                                                  28/28 
+DEBUG util.py:463:    Running scriptlet: gcc-plugin-annobin-14.3.1-4.4.el10.alma.2.x86_64                                                                                                                  28/28 
+DEBUG util.py:463:  Installed:
+DEBUG util.py:463:    annobin-docs-13.02-2.el10.noarch            annobin-plugin-gcc-13.02-2.el10.x86_64         cmake-3.31.8-1.el10.x86_64                         cmake-data-3.31.8-1.el10.noarch             
+DEBUG util.py:463:    cmake-filesystem-3.31.8-1.el10.x86_64       cmake-rpm-macros-3.31.8-1.el10.noarch          cpp-14.3.1-4.4.el10.alma.2.x86_64                  emacs-filesystem-1:29.4-12.el10.noarch      
+DEBUG util.py:463:    expat-2.7.3-1.el10_2.1.x86_64               gcc-14.3.1-4.4.el10.alma.2.x86_64              gcc-plugin-annobin-14.3.1-4.4.el10.alma.2.x86_64   git-core-2.52.0-1.el10.x86_64               
+DEBUG util.py:463:    glibc-devel-2.39-126.el10_2.alma.1.x86_64   kernel-headers-6.12.0-211.29.1.el10_2.x86_64   less-661-3.el10.x86_64                             libedit-3.1-52.20230828cvs.el10.x86_64      
+DEBUG util.py:463:    libmpc-1.3.1-7.el10.x86_64                  libuv-1:1.52.1-1.el10_2.x86_64                 libxcrypt-devel-4.4.36-10.el10.x86_64              make-1:4.4.1-9.el10.x86_64                  
+DEBUG util.py:463:    mpdecimal-2.5.1-12.el10.x86_64              openssh-9.9p1-23.el10_2.alma.1.x86_64          openssh-clients-9.9p1-23.el10_2.alma.1.x86_64      python3-3.12.13-2.el10_2.x86_64             
+DEBUG util.py:463:    python3-libs-3.12.13-2.el10_2.x86_64        python3-pip-wheel-23.3.2-11.el10_2.noarch      tzdata-2026b-1.el10.alma.1.noarch                  vim-filesystem-2:9.1.083-9.el10_2.4.noarch  
+DEBUG util.py:463:  Complete!
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '079e5bbae9774f8e8791d4a36ebd525f', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qa', '--root', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:463:  gpg-pubkey-c2a1e572-668fe8ef
+DEBUG util.py:463:  gpg-pubkey-e37ed158-65785fa9
+DEBUG util.py:463:  libgcc-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  ghc-srpm-macros-1.9.2-1.el10_0.noarch
+DEBUG util.py:463:  fpc-srpm-macros-1.3-7.el10_1.noarch
+DEBUG util.py:463:  ansible-srpm-macros-1-21.el10_2.noarch
+DEBUG util.py:463:  rust-toolset-srpm-macros-1.92.0-1.el10.alma.1.noarch
+DEBUG util.py:463:  qt6-srpm-macros-6.10.1-1.el10.noarch
+DEBUG util.py:463:  perl-srpm-macros-1-57.el10.noarch
+DEBUG util.py:463:  package-notes-srpm-macros-0.5-13.el10.noarch
+DEBUG util.py:463:  openblas-srpm-macros-2-19.el10.noarch
+DEBUG util.py:463:  ocaml-srpm-macros-10-4.el10.noarch
+DEBUG util.py:463:  kernel-srpm-macros-1.0-27.el10.noarch
+DEBUG util.py:463:  publicsuffix-list-dafsa-20240107-5.el10.noarch
+DEBUG util.py:463:  pkgconf-m4-2.1.0-3.el10.noarch
+DEBUG util.py:463:  pcre2-syntax-10.44-1.el10.3.noarch
+DEBUG util.py:463:  ncurses-base-6.4-15.20240127.el10_1.noarch
+DEBUG util.py:463:  libssh-config-0.12.0-2.el10.noarch
+DEBUG util.py:463:  coreutils-common-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  almalinux-gpg-keys-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-release-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-repos-10.2-21.el10.x86_64
+DEBUG util.py:463:  setup-2.14.5-7.el10.noarch
+DEBUG util.py:463:  filesystem-3.18-17.el10.x86_64
+DEBUG util.py:463:  basesystem-11-22.el10.noarch
+DEBUG util.py:463:  glibc-gconv-extra-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  ncurses-libs-6.4-15.20240127.el10_1.x86_64
+DEBUG util.py:463:  glibc-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  bash-5.2.26-6.el10.x86_64
+DEBUG util.py:463:  glibc-common-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  glibc-minimal-langpack-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  zlib-ng-compat-2.2.3-3.el10_1.x86_64
+DEBUG util.py:463:  bzip2-libs-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  xz-libs-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libstdc++-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libuuid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  popt-1.19-8.el10.x86_64
+DEBUG util.py:463:  readline-8.2-11.el10.x86_64
+DEBUG util.py:463:  libblkid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  gmp-6.2.1-12.el10.x86_64
+DEBUG util.py:463:  libattr-2.5.2-5.el10.x86_64
+DEBUG util.py:463:  libacl-2.3.2-4.el10.x86_64
+DEBUG util.py:463:  libxcrypt-4.4.36-10.el10.x86_64
+DEBUG util.py:463:  libzstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  elfutils-libelf-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  crypto-policies-20260216-1.git0e54016.el10.alma.1.noarch
+DEBUG util.py:463:  gdbm-libs-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  libeconf-0.6.2-4.el10.x86_64
+DEBUG util.py:463:  dwz-0.16-1.el10.x86_64
+DEBUG util.py:463:  mpfr-4.2.1-8.el10.x86_64
+DEBUG util.py:463:  gawk-5.3.0-6.el10.x86_64
+DEBUG util.py:463:  unzip-6.0-69.el10.x86_64
+DEBUG util.py:463:  file-libs-5.45-9.el10.x86_64
+DEBUG util.py:463:  file-5.45-9.el10.x86_64
+DEBUG util.py:463:  alternatives-1.30-2.el10.x86_64
+DEBUG util.py:463:  jansson-2.14-3.el10.x86_64
+DEBUG util.py:463:  libcap-ng-0.8.4-6.el10.x86_64
+DEBUG util.py:463:  audit-libs-4.0.3-5.el10.x86_64
+DEBUG util.py:463:  pam-libs-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libcap-2.69-7.el10_2.1.x86_64
+DEBUG util.py:463:  systemd-libs-257-23.el10_2.2.alma.1.x86_64
+DEBUG util.py:463:  libffi-3.4.4-10.el10.x86_64
+DEBUG util.py:463:  libsepol-3.10-1.el10.x86_64
+DEBUG util.py:463:  libsmartcols-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libtasn1-4.20.0-5.el10_2.x86_64
+DEBUG util.py:463:  libunistring-1.1-10.el10.x86_64
+DEBUG util.py:463:  libidn2-2.3.7-3.el10.x86_64
+DEBUG util.py:463:  lua-libs-5.4.6-7.el10.x86_64
+DEBUG util.py:463:  lz4-libs-1.9.4-8.el10.x86_64
+DEBUG util.py:463:  pcre2-10.44-1.el10.3.x86_64
+DEBUG util.py:463:  libselinux-3.10-1.el10.x86_64
+DEBUG util.py:463:  sed-4.9-5.el10.x86_64
+DEBUG util.py:463:  findutils-4.10.0-5.el10.x86_64
+DEBUG util.py:463:  grep-3.11-10.el10.x86_64
+DEBUG util.py:463:  xz-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libmount-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  util-linux-core-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libsemanage-3.10-1.el10.x86_64
+DEBUG util.py:463:  shadow-utils-4.15.0-11.el10.x86_64
+DEBUG util.py:463:  libutempter-1.2.1-15.el10.x86_64
+DEBUG util.py:463:  tar-1.35-11.el10.x86_64
+DEBUG util.py:463:  zstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  libpsl-0.21.5-6.el10.x86_64
+DEBUG util.py:463:  p11-kit-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  p11-kit-trust-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  openssl-fips-provider-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  openssl-libs-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  coreutils-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  ca-certificates-2025.2.80_v9.0.305-102.el10_1.noarch
+DEBUG util.py:463:  authselect-libs-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  gzip-1.13-3.el10.x86_64
+DEBUG util.py:463:  cracklib-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  cracklib-dicts-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  libpwquality-1.4.5-12.el10.x86_64
+DEBUG util.py:463:  libevent-2.1.12-16.el10.x86_64
+DEBUG util.py:463:  rpm-sequoia-1.10.1.1-2.el10.x86_64
+DEBUG util.py:463:  zip-3.0-45.el10.x86_64
+DEBUG util.py:463:  cyrus-sasl-lib-2.1.28-30.el10_2.x86_64
+DEBUG util.py:463:  openldap-2.6.10-1.el10.x86_64
+DEBUG util.py:463:  gdbm-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  pam-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libfdisk-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libxml2-2.12.5-10.el10_2.1.x86_64
+DEBUG util.py:463:  libarchive-3.7.7-8.el10_1.x86_64
+DEBUG util.py:463:  bzip2-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  sqlite-libs-3.46.1-5.el10_1.x86_64
+DEBUG util.py:463:  rpm-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  ed-1.20-5.el10.x86_64
+DEBUG util.py:463:  patch-2.7.6-26.el10.x86_64
+DEBUG util.py:463:  elfutils-default-yama-scope-0.194-2.el10_2.noarch
+DEBUG util.py:463:  cpio-2.15-3.el10.x86_64
+DEBUG util.py:463:  diffutils-3.10-8.el10.x86_64
+DEBUG util.py:463:  json-c-0.18-3.el10.x86_64
+DEBUG util.py:463:  keyutils-libs-1.6.3-5.el10.x86_64
+DEBUG util.py:463:  libbrotli-1.1.0-7.el10_1.x86_64
+DEBUG util.py:463:  libcbor-0.11.0-3.el10.x86_64
+DEBUG util.py:463:  libfido2-1.14.0-7.el10.x86_64
+DEBUG util.py:463:  libcom_err-1.47.1-5.el10.x86_64
+DEBUG util.py:463:  libgomp-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libnghttp2-1.68.0-3.el10_2.1.x86_64
+DEBUG util.py:463:  libpkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-pkg-config-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  libverto-0.3.2-10.el10.x86_64
+DEBUG util.py:463:  krb5-libs-1.21.3-10.el10_2.x86_64
+DEBUG util.py:463:  libssh-0.12.0-2.el10.x86_64
+DEBUG util.py:463:  libcurl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  elfutils-libs-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  elfutils-debuginfod-client-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  binutils-gold-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  binutils-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  elfutils-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  gdb-minimal-16.3-3.el10.x86_64
+DEBUG util.py:463:  debugedit-5.1-8.el10.x86_64
+DEBUG util.py:463:  rpm-build-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  curl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  rpm-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  efi-srpm-macros-6-6.el10.alma.1.noarch
+DEBUG util.py:463:  lua-srpm-macros-1-15.el10.noarch
+DEBUG util.py:463:  fonts-srpm-macros-2.0.5-18.el10.noarch
+DEBUG util.py:463:  forge-srpm-macros-0.4.0-6.el10.noarch
+DEBUG util.py:463:  go-srpm-macros-3.8.0-1.el10.noarch
+DEBUG util.py:463:  python-srpm-macros-3.12-11.el10.noarch
+DEBUG util.py:463:  redhat-rpm-config-295-1.el10.alma.1.noarch
+DEBUG util.py:463:  rpm-build-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  pyproject-srpm-macros-1.18.5-1.el10.noarch
+DEBUG util.py:463:  R-srpm-macros-1.3.7-1.el10_2.noarch
+DEBUG util.py:463:  epel-rpm-macros-10-7.el10_2.noarch
+DEBUG util.py:463:  util-linux-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  authselect-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  which-2.21-44.el10_0.x86_64
+DEBUG util.py:463:  info-7.1-6.el10.x86_64
+DEBUG util.py:463:  expat-2.7.3-1.el10_2.1.x86_64
+DEBUG util.py:463:  libmpc-1.3.1-7.el10.x86_64
+DEBUG util.py:463:  cmake-filesystem-3.31.8-1.el10.x86_64
+DEBUG util.py:463:  make-4.4.1-9.el10.x86_64
+DEBUG util.py:463:  cpp-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libuv-1.52.1-1.el10_2.x86_64
+DEBUG util.py:463:  kernel-headers-6.12.0-211.29.1.el10_2.x86_64
+DEBUG util.py:463:  libxcrypt-devel-4.4.36-10.el10.x86_64
+DEBUG util.py:463:  glibc-devel-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  gcc-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  annobin-docs-13.02-2.el10.noarch
+DEBUG util.py:463:  vim-filesystem-9.1.083-9.el10_2.4.noarch
+DEBUG util.py:463:  tzdata-2026b-1.el10.alma.1.noarch
+DEBUG util.py:463:  python3-pip-wheel-23.3.2-11.el10_2.noarch
+DEBUG util.py:463:  openssh-9.9p1-23.el10_2.alma.1.x86_64
+DEBUG util.py:463:  mpdecimal-2.5.1-12.el10.x86_64
+DEBUG util.py:463:  python3-3.12.13-2.el10_2.x86_64
+DEBUG util.py:463:  python3-libs-3.12.13-2.el10_2.x86_64
+DEBUG util.py:463:  cmake-rpm-macros-3.31.8-1.el10.noarch
+DEBUG util.py:463:  libedit-3.1-52.20230828cvs.el10.x86_64
+DEBUG util.py:463:  openssh-clients-9.9p1-23.el10_2.alma.1.x86_64
+DEBUG util.py:463:  less-661-3.el10.x86_64
+DEBUG util.py:463:  emacs-filesystem-29.4-12.el10.noarch
+DEBUG util.py:463:  cmake-3.31.8-1.el10.x86_64
+DEBUG util.py:463:  cmake-data-3.31.8-1.el10.noarch
+DEBUG util.py:463:  git-core-2.52.0-1.el10.x86_64
+DEBUG util.py:463:  annobin-plugin-gcc-13.02-2.el10.x86_64
+DEBUG util.py:463:  gcc-plugin-annobin-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'd27d20a9bedf45db87666e2c514204dc', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qa', '--root', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:463:  gpg-pubkey-c2a1e572-668fe8ef
+DEBUG util.py:463:  gpg-pubkey-e37ed158-65785fa9
+DEBUG util.py:463:  libgcc-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  ghc-srpm-macros-1.9.2-1.el10_0.noarch
+DEBUG util.py:463:  fpc-srpm-macros-1.3-7.el10_1.noarch
+DEBUG util.py:463:  ansible-srpm-macros-1-21.el10_2.noarch
+DEBUG util.py:463:  rust-toolset-srpm-macros-1.92.0-1.el10.alma.1.noarch
+DEBUG util.py:463:  qt6-srpm-macros-6.10.1-1.el10.noarch
+DEBUG util.py:463:  perl-srpm-macros-1-57.el10.noarch
+DEBUG util.py:463:  package-notes-srpm-macros-0.5-13.el10.noarch
+DEBUG util.py:463:  openblas-srpm-macros-2-19.el10.noarch
+DEBUG util.py:463:  ocaml-srpm-macros-10-4.el10.noarch
+DEBUG util.py:463:  kernel-srpm-macros-1.0-27.el10.noarch
+DEBUG util.py:463:  publicsuffix-list-dafsa-20240107-5.el10.noarch
+DEBUG util.py:463:  pkgconf-m4-2.1.0-3.el10.noarch
+DEBUG util.py:463:  pcre2-syntax-10.44-1.el10.3.noarch
+DEBUG util.py:463:  ncurses-base-6.4-15.20240127.el10_1.noarch
+DEBUG util.py:463:  libssh-config-0.12.0-2.el10.noarch
+DEBUG util.py:463:  coreutils-common-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  almalinux-gpg-keys-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-release-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-repos-10.2-21.el10.x86_64
+DEBUG util.py:463:  setup-2.14.5-7.el10.noarch
+DEBUG util.py:463:  filesystem-3.18-17.el10.x86_64
+DEBUG util.py:463:  basesystem-11-22.el10.noarch
+DEBUG util.py:463:  glibc-gconv-extra-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  ncurses-libs-6.4-15.20240127.el10_1.x86_64
+DEBUG util.py:463:  glibc-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  bash-5.2.26-6.el10.x86_64
+DEBUG util.py:463:  glibc-common-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  glibc-minimal-langpack-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  zlib-ng-compat-2.2.3-3.el10_1.x86_64
+DEBUG util.py:463:  bzip2-libs-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  xz-libs-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libstdc++-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libuuid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  popt-1.19-8.el10.x86_64
+DEBUG util.py:463:  readline-8.2-11.el10.x86_64
+DEBUG util.py:463:  libblkid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  gmp-6.2.1-12.el10.x86_64
+DEBUG util.py:463:  libattr-2.5.2-5.el10.x86_64
+DEBUG util.py:463:  libacl-2.3.2-4.el10.x86_64
+DEBUG util.py:463:  libxcrypt-4.4.36-10.el10.x86_64
+DEBUG util.py:463:  libzstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  elfutils-libelf-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  crypto-policies-20260216-1.git0e54016.el10.alma.1.noarch
+DEBUG util.py:463:  gdbm-libs-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  libeconf-0.6.2-4.el10.x86_64
+DEBUG util.py:463:  dwz-0.16-1.el10.x86_64
+DEBUG util.py:463:  mpfr-4.2.1-8.el10.x86_64
+DEBUG util.py:463:  gawk-5.3.0-6.el10.x86_64
+DEBUG util.py:463:  unzip-6.0-69.el10.x86_64
+DEBUG util.py:463:  file-libs-5.45-9.el10.x86_64
+DEBUG util.py:463:  file-5.45-9.el10.x86_64
+DEBUG util.py:463:  alternatives-1.30-2.el10.x86_64
+DEBUG util.py:463:  jansson-2.14-3.el10.x86_64
+DEBUG util.py:463:  libcap-ng-0.8.4-6.el10.x86_64
+DEBUG util.py:463:  audit-libs-4.0.3-5.el10.x86_64
+DEBUG util.py:463:  pam-libs-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libcap-2.69-7.el10_2.1.x86_64
+DEBUG util.py:463:  systemd-libs-257-23.el10_2.2.alma.1.x86_64
+DEBUG util.py:463:  libffi-3.4.4-10.el10.x86_64
+DEBUG util.py:463:  libsepol-3.10-1.el10.x86_64
+DEBUG util.py:463:  libsmartcols-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libtasn1-4.20.0-5.el10_2.x86_64
+DEBUG util.py:463:  libunistring-1.1-10.el10.x86_64
+DEBUG util.py:463:  libidn2-2.3.7-3.el10.x86_64
+DEBUG util.py:463:  lua-libs-5.4.6-7.el10.x86_64
+DEBUG util.py:463:  lz4-libs-1.9.4-8.el10.x86_64
+DEBUG util.py:463:  pcre2-10.44-1.el10.3.x86_64
+DEBUG util.py:463:  libselinux-3.10-1.el10.x86_64
+DEBUG util.py:463:  sed-4.9-5.el10.x86_64
+DEBUG util.py:463:  findutils-4.10.0-5.el10.x86_64
+DEBUG util.py:463:  grep-3.11-10.el10.x86_64
+DEBUG util.py:463:  xz-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libmount-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  util-linux-core-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libsemanage-3.10-1.el10.x86_64
+DEBUG util.py:463:  shadow-utils-4.15.0-11.el10.x86_64
+DEBUG util.py:463:  libutempter-1.2.1-15.el10.x86_64
+DEBUG util.py:463:  tar-1.35-11.el10.x86_64
+DEBUG util.py:463:  zstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  libpsl-0.21.5-6.el10.x86_64
+DEBUG util.py:463:  p11-kit-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  p11-kit-trust-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  openssl-fips-provider-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  openssl-libs-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  coreutils-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  ca-certificates-2025.2.80_v9.0.305-102.el10_1.noarch
+DEBUG util.py:463:  authselect-libs-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  gzip-1.13-3.el10.x86_64
+DEBUG util.py:463:  cracklib-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  cracklib-dicts-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  libpwquality-1.4.5-12.el10.x86_64
+DEBUG util.py:463:  libevent-2.1.12-16.el10.x86_64
+DEBUG util.py:463:  rpm-sequoia-1.10.1.1-2.el10.x86_64
+DEBUG util.py:463:  zip-3.0-45.el10.x86_64
+DEBUG util.py:463:  cyrus-sasl-lib-2.1.28-30.el10_2.x86_64
+DEBUG util.py:463:  openldap-2.6.10-1.el10.x86_64
+DEBUG util.py:463:  gdbm-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  pam-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libfdisk-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libxml2-2.12.5-10.el10_2.1.x86_64
+DEBUG util.py:463:  libarchive-3.7.7-8.el10_1.x86_64
+DEBUG util.py:463:  bzip2-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  sqlite-libs-3.46.1-5.el10_1.x86_64
+DEBUG util.py:463:  rpm-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  ed-1.20-5.el10.x86_64
+DEBUG util.py:463:  patch-2.7.6-26.el10.x86_64
+DEBUG util.py:463:  elfutils-default-yama-scope-0.194-2.el10_2.noarch
+DEBUG util.py:463:  cpio-2.15-3.el10.x86_64
+DEBUG util.py:463:  diffutils-3.10-8.el10.x86_64
+DEBUG util.py:463:  json-c-0.18-3.el10.x86_64
+DEBUG util.py:463:  keyutils-libs-1.6.3-5.el10.x86_64
+DEBUG util.py:463:  libbrotli-1.1.0-7.el10_1.x86_64
+DEBUG util.py:463:  libcbor-0.11.0-3.el10.x86_64
+DEBUG util.py:463:  libfido2-1.14.0-7.el10.x86_64
+DEBUG util.py:463:  libcom_err-1.47.1-5.el10.x86_64
+DEBUG util.py:463:  libgomp-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libnghttp2-1.68.0-3.el10_2.1.x86_64
+DEBUG util.py:463:  libpkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-pkg-config-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  libverto-0.3.2-10.el10.x86_64
+DEBUG util.py:463:  krb5-libs-1.21.3-10.el10_2.x86_64
+DEBUG util.py:463:  libssh-0.12.0-2.el10.x86_64
+DEBUG util.py:463:  libcurl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  elfutils-libs-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  elfutils-debuginfod-client-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  binutils-gold-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  binutils-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  elfutils-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  gdb-minimal-16.3-3.el10.x86_64
+DEBUG util.py:463:  debugedit-5.1-8.el10.x86_64
+DEBUG util.py:463:  rpm-build-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  curl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  rpm-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  efi-srpm-macros-6-6.el10.alma.1.noarch
+DEBUG util.py:463:  lua-srpm-macros-1-15.el10.noarch
+DEBUG util.py:463:  fonts-srpm-macros-2.0.5-18.el10.noarch
+DEBUG util.py:463:  forge-srpm-macros-0.4.0-6.el10.noarch
+DEBUG util.py:463:  go-srpm-macros-3.8.0-1.el10.noarch
+DEBUG util.py:463:  python-srpm-macros-3.12-11.el10.noarch
+DEBUG util.py:463:  redhat-rpm-config-295-1.el10.alma.1.noarch
+DEBUG util.py:463:  rpm-build-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  pyproject-srpm-macros-1.18.5-1.el10.noarch
+DEBUG util.py:463:  R-srpm-macros-1.3.7-1.el10_2.noarch
+DEBUG util.py:463:  epel-rpm-macros-10-7.el10_2.noarch
+DEBUG util.py:463:  util-linux-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  authselect-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  which-2.21-44.el10_0.x86_64
+DEBUG util.py:463:  info-7.1-6.el10.x86_64
+DEBUG util.py:463:  expat-2.7.3-1.el10_2.1.x86_64
+DEBUG util.py:463:  libmpc-1.3.1-7.el10.x86_64
+DEBUG util.py:463:  cmake-filesystem-3.31.8-1.el10.x86_64
+DEBUG util.py:463:  make-4.4.1-9.el10.x86_64
+DEBUG util.py:463:  cpp-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libuv-1.52.1-1.el10_2.x86_64
+DEBUG util.py:463:  kernel-headers-6.12.0-211.29.1.el10_2.x86_64
+DEBUG util.py:463:  libxcrypt-devel-4.4.36-10.el10.x86_64
+DEBUG util.py:463:  glibc-devel-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  gcc-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  annobin-docs-13.02-2.el10.noarch
+DEBUG util.py:463:  vim-filesystem-9.1.083-9.el10_2.4.noarch
+DEBUG util.py:463:  tzdata-2026b-1.el10.alma.1.noarch
+DEBUG util.py:463:  python3-pip-wheel-23.3.2-11.el10_2.noarch
+DEBUG util.py:463:  openssh-9.9p1-23.el10_2.alma.1.x86_64
+DEBUG util.py:463:  mpdecimal-2.5.1-12.el10.x86_64
+DEBUG util.py:463:  python3-3.12.13-2.el10_2.x86_64
+DEBUG util.py:463:  python3-libs-3.12.13-2.el10_2.x86_64
+DEBUG util.py:463:  cmake-rpm-macros-3.31.8-1.el10.noarch
+DEBUG util.py:463:  libedit-3.1-52.20230828cvs.el10.x86_64
+DEBUG util.py:463:  openssh-clients-9.9p1-23.el10_2.alma.1.x86_64
+DEBUG util.py:463:  less-661-3.el10.x86_64
+DEBUG util.py:463:  emacs-filesystem-29.4-12.el10.noarch
+DEBUG util.py:463:  cmake-3.31.8-1.el10.x86_64
+DEBUG util.py:463:  cmake-data-3.31.8-1.el10.noarch
+DEBUG util.py:463:  git-core-2.52.0-1.el10.x86_64
+DEBUG util.py:463:  annobin-plugin-gcc-13.02-2.el10.x86_64
+DEBUG util.py:463:  gcc-plugin-annobin-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/proc
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/proc
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/sys
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/sys
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/dev/shm
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/dev/pts
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/alma+epel-10-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64/root/installation-homedir
+DEBUG package_manager.py:295:  ['/usr/bin/dnf-3', 'builddep', '--installroot', '/var/lib/mock/alma+epel-10-x86_64/root/', '--releasever', '10', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/var/lib/mock/alma+epel-10-x86_64/root//builddir/build/SRPMS/yajl-2.1.0-25.el10.src.rpm']
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '666a77a4bff24d678681d9d854973275', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/var/lib/mock/alma+epel-10-x86_64/root/installation-homedir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--setenv=LC_MESSAGES=C.UTF-8', '--resolv-conf=off', '/usr/bin/dnf-3', 'builddep', '--installroot', '/var/lib/mock/alma+epel-10-x86_64/root/', '--releasever', '10', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/var/lib/mock/alma+epel-10-x86_64/root//builddir/build/SRPMS/yajl-2.1.0-25.el10.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/alma+epel-10-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:461:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+DEBUG util.py:463:  AlmaLinux 10 - BaseOS                                                                                                                                        3.3 kB/s | 3.8 kB     00:01    
+DEBUG util.py:463:  AlmaLinux 10 - AppStream                                                                                                                                     3.6 kB/s | 3.8 kB     00:01    
+DEBUG util.py:463:  AlmaLinux 10 - CRB                                                                                                                                           2.6 kB/s | 3.8 kB     00:01    
+DEBUG util.py:463:  AlmaLinux 10 - Extras                                                                                                                                        3.3 kB/s | 3.5 kB     00:01    
+DEBUG util.py:463:  Extra Packages for Enterprise Linux 10 - x86_64                                                                                                              8.4 kB/s |  10 kB     00:01    
+DEBUG util.py:463:  Package cmake-3.31.8-1.el10.x86_64 is already installed.
+DEBUG util.py:463:  Package gcc-14.3.1-4.4.el10.alma.2.x86_64 is already installed.
+DEBUG util.py:463:  Package git-core-2.52.0-1.el10.x86_64 is already installed.
+DEBUG util.py:463:  Dependencies resolved.
+DEBUG util.py:463:  Nothing to do.
+DEBUG util.py:463:  Complete!
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '73bf652069b3401d8104d3e66e92332f', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qa', '--root', '/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:463:  gpg-pubkey-c2a1e572-668fe8ef
+DEBUG util.py:463:  gpg-pubkey-e37ed158-65785fa9
+DEBUG util.py:463:  libgcc-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  ghc-srpm-macros-1.9.2-1.el10_0.noarch
+DEBUG util.py:463:  fpc-srpm-macros-1.3-7.el10_1.noarch
+DEBUG util.py:463:  ansible-srpm-macros-1-21.el10_2.noarch
+DEBUG util.py:463:  rust-toolset-srpm-macros-1.92.0-1.el10.alma.1.noarch
+DEBUG util.py:463:  qt6-srpm-macros-6.10.1-1.el10.noarch
+DEBUG util.py:463:  perl-srpm-macros-1-57.el10.noarch
+DEBUG util.py:463:  package-notes-srpm-macros-0.5-13.el10.noarch
+DEBUG util.py:463:  openblas-srpm-macros-2-19.el10.noarch
+DEBUG util.py:463:  ocaml-srpm-macros-10-4.el10.noarch
+DEBUG util.py:463:  kernel-srpm-macros-1.0-27.el10.noarch
+DEBUG util.py:463:  publicsuffix-list-dafsa-20240107-5.el10.noarch
+DEBUG util.py:463:  pkgconf-m4-2.1.0-3.el10.noarch
+DEBUG util.py:463:  pcre2-syntax-10.44-1.el10.3.noarch
+DEBUG util.py:463:  ncurses-base-6.4-15.20240127.el10_1.noarch
+DEBUG util.py:463:  libssh-config-0.12.0-2.el10.noarch
+DEBUG util.py:463:  coreutils-common-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  almalinux-gpg-keys-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-release-10.2-21.el10.x86_64
+DEBUG util.py:463:  almalinux-repos-10.2-21.el10.x86_64
+DEBUG util.py:463:  setup-2.14.5-7.el10.noarch
+DEBUG util.py:463:  filesystem-3.18-17.el10.x86_64
+DEBUG util.py:463:  basesystem-11-22.el10.noarch
+DEBUG util.py:463:  glibc-gconv-extra-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  ncurses-libs-6.4-15.20240127.el10_1.x86_64
+DEBUG util.py:463:  glibc-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  bash-5.2.26-6.el10.x86_64
+DEBUG util.py:463:  glibc-common-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  glibc-minimal-langpack-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  zlib-ng-compat-2.2.3-3.el10_1.x86_64
+DEBUG util.py:463:  bzip2-libs-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  xz-libs-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libstdc++-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libuuid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  popt-1.19-8.el10.x86_64
+DEBUG util.py:463:  readline-8.2-11.el10.x86_64
+DEBUG util.py:463:  libblkid-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  gmp-6.2.1-12.el10.x86_64
+DEBUG util.py:463:  libattr-2.5.2-5.el10.x86_64
+DEBUG util.py:463:  libacl-2.3.2-4.el10.x86_64
+DEBUG util.py:463:  libxcrypt-4.4.36-10.el10.x86_64
+DEBUG util.py:463:  libzstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  elfutils-libelf-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  crypto-policies-20260216-1.git0e54016.el10.alma.1.noarch
+DEBUG util.py:463:  gdbm-libs-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  libeconf-0.6.2-4.el10.x86_64
+DEBUG util.py:463:  dwz-0.16-1.el10.x86_64
+DEBUG util.py:463:  mpfr-4.2.1-8.el10.x86_64
+DEBUG util.py:463:  gawk-5.3.0-6.el10.x86_64
+DEBUG util.py:463:  unzip-6.0-69.el10.x86_64
+DEBUG util.py:463:  file-libs-5.45-9.el10.x86_64
+DEBUG util.py:463:  file-5.45-9.el10.x86_64
+DEBUG util.py:463:  alternatives-1.30-2.el10.x86_64
+DEBUG util.py:463:  jansson-2.14-3.el10.x86_64
+DEBUG util.py:463:  libcap-ng-0.8.4-6.el10.x86_64
+DEBUG util.py:463:  audit-libs-4.0.3-5.el10.x86_64
+DEBUG util.py:463:  pam-libs-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libcap-2.69-7.el10_2.1.x86_64
+DEBUG util.py:463:  systemd-libs-257-23.el10_2.2.alma.1.x86_64
+DEBUG util.py:463:  libffi-3.4.4-10.el10.x86_64
+DEBUG util.py:463:  libsepol-3.10-1.el10.x86_64
+DEBUG util.py:463:  libsmartcols-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libtasn1-4.20.0-5.el10_2.x86_64
+DEBUG util.py:463:  libunistring-1.1-10.el10.x86_64
+DEBUG util.py:463:  libidn2-2.3.7-3.el10.x86_64
+DEBUG util.py:463:  lua-libs-5.4.6-7.el10.x86_64
+DEBUG util.py:463:  lz4-libs-1.9.4-8.el10.x86_64
+DEBUG util.py:463:  pcre2-10.44-1.el10.3.x86_64
+DEBUG util.py:463:  libselinux-3.10-1.el10.x86_64
+DEBUG util.py:463:  sed-4.9-5.el10.x86_64
+DEBUG util.py:463:  findutils-4.10.0-5.el10.x86_64
+DEBUG util.py:463:  grep-3.11-10.el10.x86_64
+DEBUG util.py:463:  xz-5.6.2-4.el10_0.x86_64
+DEBUG util.py:463:  libmount-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  util-linux-core-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libsemanage-3.10-1.el10.x86_64
+DEBUG util.py:463:  shadow-utils-4.15.0-11.el10.x86_64
+DEBUG util.py:463:  libutempter-1.2.1-15.el10.x86_64
+DEBUG util.py:463:  tar-1.35-11.el10.x86_64
+DEBUG util.py:463:  zstd-1.5.5-9.el10.x86_64
+DEBUG util.py:463:  libpsl-0.21.5-6.el10.x86_64
+DEBUG util.py:463:  p11-kit-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  p11-kit-trust-0.26.2-1.el10.x86_64
+DEBUG util.py:463:  openssl-fips-provider-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  openssl-libs-3.5.5-4.el10_2.alma.1.x86_64
+DEBUG util.py:463:  coreutils-9.5-8.el10_2.x86_64
+DEBUG util.py:463:  ca-certificates-2025.2.80_v9.0.305-102.el10_1.noarch
+DEBUG util.py:463:  authselect-libs-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  gzip-1.13-3.el10.x86_64
+DEBUG util.py:463:  cracklib-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  cracklib-dicts-2.9.11-8.el10.x86_64
+DEBUG util.py:463:  libpwquality-1.4.5-12.el10.x86_64
+DEBUG util.py:463:  libevent-2.1.12-16.el10.x86_64
+DEBUG util.py:463:  rpm-sequoia-1.10.1.1-2.el10.x86_64
+DEBUG util.py:463:  zip-3.0-45.el10.x86_64
+DEBUG util.py:463:  cyrus-sasl-lib-2.1.28-30.el10_2.x86_64
+DEBUG util.py:463:  openldap-2.6.10-1.el10.x86_64
+DEBUG util.py:463:  gdbm-1.23-12.el10_0.x86_64
+DEBUG util.py:463:  pam-1.6.1-9.el10.x86_64
+DEBUG util.py:463:  libfdisk-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  libxml2-2.12.5-10.el10_2.1.x86_64
+DEBUG util.py:463:  libarchive-3.7.7-8.el10_1.x86_64
+DEBUG util.py:463:  bzip2-1.0.8-25.el10.x86_64
+DEBUG util.py:463:  sqlite-libs-3.46.1-5.el10_1.x86_64
+DEBUG util.py:463:  rpm-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  ed-1.20-5.el10.x86_64
+DEBUG util.py:463:  patch-2.7.6-26.el10.x86_64
+DEBUG util.py:463:  elfutils-default-yama-scope-0.194-2.el10_2.noarch
+DEBUG util.py:463:  cpio-2.15-3.el10.x86_64
+DEBUG util.py:463:  diffutils-3.10-8.el10.x86_64
+DEBUG util.py:463:  json-c-0.18-3.el10.x86_64
+DEBUG util.py:463:  keyutils-libs-1.6.3-5.el10.x86_64
+DEBUG util.py:463:  libbrotli-1.1.0-7.el10_1.x86_64
+DEBUG util.py:463:  libcbor-0.11.0-3.el10.x86_64
+DEBUG util.py:463:  libfido2-1.14.0-7.el10.x86_64
+DEBUG util.py:463:  libcom_err-1.47.1-5.el10.x86_64
+DEBUG util.py:463:  libgomp-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libnghttp2-1.68.0-3.el10_2.1.x86_64
+DEBUG util.py:463:  libpkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  pkgconf-pkg-config-2.1.0-3.el10.x86_64
+DEBUG util.py:463:  libverto-0.3.2-10.el10.x86_64
+DEBUG util.py:463:  krb5-libs-1.21.3-10.el10_2.x86_64
+DEBUG util.py:463:  libssh-0.12.0-2.el10.x86_64
+DEBUG util.py:463:  libcurl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  elfutils-libs-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  elfutils-debuginfod-client-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  binutils-gold-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  binutils-2.41-63.el10.alma.1.x86_64
+DEBUG util.py:463:  elfutils-0.194-2.el10_2.x86_64
+DEBUG util.py:463:  gdb-minimal-16.3-3.el10.x86_64
+DEBUG util.py:463:  debugedit-5.1-8.el10.x86_64
+DEBUG util.py:463:  rpm-build-libs-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  curl-8.12.1-4.el10.x86_64
+DEBUG util.py:463:  rpm-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  efi-srpm-macros-6-6.el10.alma.1.noarch
+DEBUG util.py:463:  lua-srpm-macros-1-15.el10.noarch
+DEBUG util.py:463:  fonts-srpm-macros-2.0.5-18.el10.noarch
+DEBUG util.py:463:  forge-srpm-macros-0.4.0-6.el10.noarch
+DEBUG util.py:463:  go-srpm-macros-3.8.0-1.el10.noarch
+DEBUG util.py:463:  python-srpm-macros-3.12-11.el10.noarch
+DEBUG util.py:463:  redhat-rpm-config-295-1.el10.alma.1.noarch
+DEBUG util.py:463:  rpm-build-4.19.1.1-23.el10.alma.1.x86_64
+DEBUG util.py:463:  pyproject-srpm-macros-1.18.5-1.el10.noarch
+DEBUG util.py:463:  R-srpm-macros-1.3.7-1.el10_2.noarch
+DEBUG util.py:463:  epel-rpm-macros-10-7.el10_2.noarch
+DEBUG util.py:463:  util-linux-2.40.2-18.el10.x86_64
+DEBUG util.py:463:  authselect-1.5.2-1.el10.x86_64
+DEBUG util.py:463:  which-2.21-44.el10_0.x86_64
+DEBUG util.py:463:  info-7.1-6.el10.x86_64
+DEBUG util.py:463:  expat-2.7.3-1.el10_2.1.x86_64
+DEBUG util.py:463:  libmpc-1.3.1-7.el10.x86_64
+DEBUG util.py:463:  cmake-filesystem-3.31.8-1.el10.x86_64
+DEBUG util.py:463:  make-4.4.1-9.el10.x86_64
+DEBUG util.py:463:  cpp-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  libuv-1.52.1-1.el10_2.x86_64
+DEBUG util.py:463:  kernel-headers-6.12.0-211.29.1.el10_2.x86_64
+DEBUG util.py:463:  libxcrypt-devel-4.4.36-10.el10.x86_64
+DEBUG util.py:463:  glibc-devel-2.39-126.el10_2.alma.1.x86_64
+DEBUG util.py:463:  gcc-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:463:  annobin-docs-13.02-2.el10.noarch
+DEBUG util.py:463:  vim-filesystem-9.1.083-9.el10_2.4.noarch
+DEBUG util.py:463:  tzdata-2026b-1.el10.alma.1.noarch
+DEBUG util.py:463:  python3-pip-wheel-23.3.2-11.el10_2.noarch
+DEBUG util.py:463:  openssh-9.9p1-23.el10_2.alma.1.x86_64
+DEBUG util.py:463:  mpdecimal-2.5.1-12.el10.x86_64
+DEBUG util.py:463:  python3-3.12.13-2.el10_2.x86_64
+DEBUG util.py:463:  python3-libs-3.12.13-2.el10_2.x86_64
+DEBUG util.py:463:  cmake-rpm-macros-3.31.8-1.el10.noarch
+DEBUG util.py:463:  libedit-3.1-52.20230828cvs.el10.x86_64
+DEBUG util.py:463:  openssh-clients-9.9p1-23.el10_2.alma.1.x86_64
+DEBUG util.py:463:  less-661-3.el10.x86_64
+DEBUG util.py:463:  emacs-filesystem-29.4-12.el10.noarch
+DEBUG util.py:463:  cmake-3.31.8-1.el10.x86_64
+DEBUG util.py:463:  cmake-data-3.31.8-1.el10.noarch
+DEBUG util.py:463:  git-core-2.52.0-1.el10.x86_64
+DEBUG util.py:463:  annobin-plugin-gcc-13.02-2.el10.x86_64
+DEBUG util.py:463:  gcc-plugin-annobin-14.3.1-4.4.el10.alma.2.x86_64
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private,mode=0755', 'tmpfs', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/alma+epel-10-x86_64/root', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:553:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf']
+DEBUG util.py:558:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'bbec5cb66a9f4d4b8e5aec443a6a6e85', '-D', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.o4j2pzll:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/sh', '-c', "rpm -qa --root '/var/lib/mock/alma+epel-10-x86_64/root' --qf '%{nevra} %{buildtime} %{size} %{pkgid} installed\\n'"] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+DEBUG util.py:463:  gpg-pubkey-c2a1e572-668fe8ef 1720707311 0 (none) installed
+DEBUG util.py:463:  gpg-pubkey-e37ed158-65785fa9 1702387625 0 (none) installed
+DEBUG util.py:463:  libgcc-14.3.1-4.4.el10.alma.2.x86_64 1772111059 277156 7949b41f2a41490134f9c69f7e2c1c65 installed
+DEBUG util.py:463:  ghc-srpm-macros-1.9.2-1.el10_0.noarch 1745569162 779 625f9b093fee9bb0f6c830c41d176111 installed
+DEBUG util.py:463:  fpc-srpm-macros-1.3-7.el10_1.noarch 1755334968 144 0a58f44f776d4ea0ffce09c1bbaa8ca3 installed
+DEBUG util.py:463:  ansible-srpm-macros-1-21.el10_2.noarch 1775683801 36518 b700833b44409eac292f9bce818b0997 installed
+DEBUG util.py:463:  rust-toolset-srpm-macros-1.92.0-1.el10.alma.1.noarch 1769678040 2058 0d60c18e3b88c789b1b6ebc8952eaa5a installed
+DEBUG util.py:463:  qt6-srpm-macros-6.10.1-1.el10.noarch 1765395372 464 06529f2a2bd0c79cd0570bafef490907 installed
+DEBUG util.py:463:  perl-srpm-macros-1-57.el10.noarch 1734187617 861 3f5c5db2565569d4dace4c85bea37804 installed
+DEBUG util.py:463:  package-notes-srpm-macros-0.5-13.el10.noarch 1734185638 1601 3cde60bb10b67a9550ccb1ae9aa8ac6a installed
+DEBUG util.py:463:  openblas-srpm-macros-2-19.el10.noarch 1733929368 112 6993787a9cab21e9aab85c30a0bd442b installed
+DEBUG util.py:463:  ocaml-srpm-macros-10-4.el10.noarch 1733929149 1959 a610b0ad19679654a9af8575d4e8923c installed
+DEBUG util.py:463:  kernel-srpm-macros-1.0-27.el10.noarch 1765923590 1957 cf3659ec2ffd3a36112b6a5f4b8b9f03 installed
+DEBUG util.py:463:  publicsuffix-list-dafsa-20240107-5.el10.noarch 1734189502 69171 c775084ba1b508126c5745a0778064b3 installed
+DEBUG util.py:463:  pkgconf-m4-2.1.0-3.el10.noarch 1734174077 14252 b3c32290e4f1543b14dc83a4c2513db2 installed
+DEBUG util.py:463:  pcre2-syntax-10.44-1.el10.3.noarch 1734183240 257634 ccd27752f168a8b7672bfe7e68744cd1 installed
+DEBUG util.py:463:  ncurses-base-6.4-15.20240127.el10_1.noarch 1774527579 334036 fe651a52c8f62374dbbc28b771121270 installed
+DEBUG util.py:463:  libssh-config-0.12.0-2.el10.noarch 1771608003 277 7560b4dae38b20f4b4027cb55ca10d74 installed
+DEBUG util.py:463:  coreutils-common-9.5-8.el10_2.x86_64 1782813009 11696110 e9a25e1583991cd8268d565ea4a6f6f8 installed
+DEBUG util.py:463:  almalinux-gpg-keys-10.2-21.el10.x86_64 1779787804 1652 8cb5d2eab58992fd96ea5b908b092aa7 installed
+DEBUG util.py:463:  almalinux-release-10.2-21.el10.x86_64 1779787804 36930 3ea9d2aebf120c644579d5d7784d31f9 installed
+DEBUG util.py:463:  almalinux-repos-10.2-21.el10.x86_64 1779787804 8842 461cb50a3e11a6b8be9147b3c6db1b03 installed
+DEBUG util.py:463:  setup-2.14.5-7.el10.noarch 1749151765 737783 26a8c05f8f1bbf593e4be89452a0e7e6 installed
+DEBUG util.py:463:  filesystem-3.18-17.el10.x86_64 1752686252 106 cd099c7ded56a34afeb19303409768fe installed
+DEBUG util.py:463:  basesystem-11-22.el10.noarch 1734045537 0 595b21c06f70147e1cbd931fd91c5943 installed
+DEBUG util.py:463:  glibc-gconv-extra-2.39-126.el10_2.alma.1.x86_64 1782812216 8165878 3974a276b3e32d498a6f6b576d49b2a8 installed
+DEBUG util.py:463:  ncurses-libs-6.4-15.20240127.el10_1.x86_64 1774527582 985279 26a618ec26f38b75cefd2bae38d88474 installed
+DEBUG util.py:463:  glibc-2.39-126.el10_2.alma.1.x86_64 1782812216 6554562 98240327a51c20ba4cc7451da6fedbd0 installed
+DEBUG util.py:463:  bash-5.2.26-6.el10.x86_64 1741028594 8546555 33ee7b72828d90fb415b67bd18703f74 installed
+DEBUG util.py:463:  glibc-common-2.39-126.el10_2.alma.1.x86_64 1782812216 1077018 b1637c3a83773fda995dfda0b0fe16d8 installed
+DEBUG util.py:463:  glibc-minimal-langpack-2.39-126.el10_2.alma.1.x86_64 1782812216 0 31358f8fe63ed2e708b6827ac957219d installed
+DEBUG util.py:463:  zlib-ng-compat-2.2.3-3.el10_1.x86_64 1770277085 144984 28b459adb24241e9517e1ce78666c920 installed
+DEBUG util.py:463:  bzip2-libs-1.0.8-25.el10.x86_64 1739793622 82508 e5f6720795f36889b359c475e483f7ef installed
+DEBUG util.py:463:  xz-libs-1:5.6.2-4.el10_0.x86_64 1747270625 219435 608b2b9f10f7620cefdac9352fb63534 installed
+DEBUG util.py:463:  libstdc++-14.3.1-4.4.el10.alma.2.x86_64 1772111059 2974265 87415d9f7f4ce0763d075b8f60feba0a installed
+DEBUG util.py:463:  libuuid-2.40.2-18.el10.x86_64 1772616096 38205 f376da94fff0eb754df16f70ede75c81 installed
+DEBUG util.py:463:  popt-1.19-8.el10.x86_64 1734182146 140018 256fddaef6554f1f6ceb555943d5fe6f installed
+DEBUG util.py:463:  readline-8.2-11.el10.x86_64 1734229259 500661 174639cbdc16be685c086ca7266bcd9c installed
+DEBUG util.py:463:  libblkid-2.40.2-18.el10.x86_64 1772616096 268722 735d7bf51eeecf19c35d17bf409a2b4d installed
+DEBUG util.py:463:  gmp-1:6.2.1-12.el10.x86_64 1751972776 821624 bbbc524d3ab91f5edafea5f166b1e8e0 installed
+DEBUG util.py:463:  libattr-2.5.2-5.el10.x86_64 1734026062 29069 b2341171bda83939715030ce5d108165 installed
+DEBUG util.py:463:  libacl-2.3.2-4.el10.x86_64 1734043789 40850 ebe8226da4e171577d0bbab67b7312a4 installed
+DEBUG util.py:463:  libxcrypt-4.4.36-10.el10.x86_64 1733850318 269013 8d8e6f919abfb562e078733ba4769d67 installed
+DEBUG util.py:463:  libzstd-1.5.5-9.el10.x86_64 1734225610 757350 2cd1680b7ef732c54728aa04789e0e99 installed
+DEBUG util.py:463:  elfutils-libelf-0.194-2.el10_2.x86_64 1775585482 1177020 5e671269932d2d02b5e7177e7b308056 installed
+DEBUG util.py:463:  crypto-policies-20260216-1.git0e54016.el10.alma.1.noarch 1772011816 121884 ce8312a29c8eb0aeb4523efe65075cf8 installed
+DEBUG util.py:463:  gdbm-libs-1:1.23-12.el10_0.x86_64 1747265717 124802 2316777b35d417be0789a01d1ee525be installed
+DEBUG util.py:463:  libeconf-0.6.2-4.el10.x86_64 1733853768 59264 208d3c26163ea7bed300f522617cdb01 installed
+DEBUG util.py:463:  dwz-0.16-1.el10.x86_64 1752668350 301844 16929aa2620f73511ea34b15d5a4e5d2 installed
+DEBUG util.py:463:  mpfr-4.2.1-8.el10.x86_64 1772661311 860061 8b574f141ddc1b7e0e23a1a6d1f6e22c installed
+DEBUG util.py:463:  gawk-5.3.0-6.el10.x86_64 1739945434 1793472 c366fdd2469a3c534eda3a19ab2f3cdd installed
+DEBUG util.py:463:  unzip-6.0-69.el10.x86_64 1750333114 411923 5a44502ca6a83b2f861ead7e8ab1166a installed
+DEBUG util.py:463:  file-libs-5.45-9.el10.x86_64 1772798627 10414622 0cfda89881b7a922e66171b7cfc610df installed
+DEBUG util.py:463:  file-5.45-9.el10.x86_64 1772798627 105823 fff637fce52a61acb6a54d447b615fcc installed
+DEBUG util.py:463:  alternatives-1.30-2.el10.x86_64 1734038722 67745 3e47e765b3c0ab2f3cb590294ca38da0 installed
+DEBUG util.py:463:  jansson-2.14-3.el10.x86_64 1734103152 91133 3d49634d0f323df9ddd1cdf2390e9bac installed
+DEBUG util.py:463:  libcap-ng-0.8.4-6.el10.x86_64 1733842566 70563 702388695e018fc6547ae8bbabd66b1f installed
+DEBUG util.py:463:  audit-libs-4.0.3-5.el10.x86_64 1768993857 367793 63cd5063d5aa400dc00e08694416fef7 installed
+DEBUG util.py:463:  pam-libs-1.6.1-9.el10.x86_64 1765406635 137911 67b3eca0dc2389c375c9145d81013a3d installed
+DEBUG util.py:463:  libcap-2.69-7.el10_2.1.x86_64 1779286980 223951 39fccdd85305004fcc5d5f3b3f68c5f7 installed
+DEBUG util.py:463:  systemd-libs-257-23.el10_2.2.alma.1.x86_64 1780480095 2399722 243b642a96c57c5c74f7c7b4806561a6 installed
+DEBUG util.py:463:  libffi-3.4.4-10.el10.x86_64 1747823536 87528 c80b924edecab6dabffeed80b4927ada installed
+DEBUG util.py:463:  libsepol-3.10-1.el10.x86_64 1771421990 853723 866983176e73a5537956f9bc7c09cbdd installed
+DEBUG util.py:463:  libsmartcols-2.40.2-18.el10.x86_64 1772616096 184594 911a0d671326fa14abcc46a6b8875d57 installed
+DEBUG util.py:463:  libtasn1-4.20.0-5.el10_2.x86_64 1782266294 180507 d3544e48fd2501946f866ef6cf155c7e installed
+DEBUG util.py:463:  libunistring-1.1-10.el10.x86_64 1733904176 1816877 3f16ea4ddf5bc4ae6ee21a4837c70fb4 installed
+DEBUG util.py:463:  libidn2-2.3.7-3.el10.x86_64 1733850022 336858 2b0050552a0a51ada221810e4efda676 installed
+DEBUG util.py:463:  lua-libs-5.4.6-7.el10.x86_64 1734109366 287675 be290028da837f19205de27d32cf8cf3 installed
+DEBUG util.py:463:  lz4-libs-1.9.4-8.el10.x86_64 1734119549 136459 f011548c152d1564efbe7ffa0b920650 installed
+DEBUG util.py:463:  pcre2-10.44-1.el10.3.x86_64 1734182345 668922 33d86a93e1b34e8e1357806fa9544e47 installed
+DEBUG util.py:463:  libselinux-3.10-1.el10.x86_64 1771427476 201757 e0c0e992c667da597a0b24931c9fcb71 installed
+DEBUG util.py:463:  sed-4.9-5.el10.x86_64 1772782921 881955 0323e43a85d3c630a97327bb0219984e installed
+DEBUG util.py:463:  findutils-1:4.10.0-5.el10.x86_64 1734029841 1942695 a2ad8e80525d5697be0727e2b48720a3 installed
+DEBUG util.py:463:  grep-3.11-10.el10.x86_64 1734032278 1042042 64543d207b8fd07457f39ea4b477b932 installed
+DEBUG util.py:463:  xz-1:5.6.2-4.el10_0.x86_64 1747270625 1244808 8b8271fed592f1d935539b0ed707644a installed
+DEBUG util.py:463:  libmount-2.40.2-18.el10.x86_64 1772616096 364210 90ceec59b1ddf1c07edbade83e68278a installed
+DEBUG util.py:463:  util-linux-core-2.40.2-18.el10.x86_64 1772616096 1542981 d269205fd4470081a707c883c9458a01 installed
+DEBUG util.py:463:  libsemanage-3.10-1.el10.x86_64 1771428438 319507 a0d99858b87e0ab415f93708828f2288 installed
+DEBUG util.py:463:  shadow-utils-2:4.15.0-11.el10.x86_64 1772803816 4269722 7106fa9e96d48daa0b1f254b65674e2c installed
+DEBUG util.py:463:  libutempter-1.2.1-15.el10.x86_64 1733852925 58809 d9a46176e8b210319ad7b5204a4c5ebd installed
+DEBUG util.py:463:  tar-2:1.35-11.el10.x86_64 1772783342 3101966 7780baf15d2d8150e024893bcbe5bd8e installed
+DEBUG util.py:463:  zstd-1.5.5-9.el10.x86_64 1734225610 1656557 def2b58ee2588c1f9297f43f8dc18f76 installed
+DEBUG util.py:463:  libpsl-0.21.5-6.el10.x86_64 1733849977 82352 f9c931353b547cb084a92dbcb87d18fc installed
+DEBUG util.py:463:  p11-kit-0.26.2-1.el10.x86_64 1771440128 2638530 523c5f43bf3ad1e9621a9a8a8f3c20e6 installed
+DEBUG util.py:463:  p11-kit-trust-0.26.2-1.el10.x86_64 1771440128 477281 3bc6eb505f9f1dbf39f755a80620291b installed
+DEBUG util.py:463:  openssl-fips-provider-1:3.5.5-4.el10_2.alma.1.x86_64 1781198955 2493202 a334583c2b3aa65845ab8388e15e5acc installed
+DEBUG util.py:463:  openssl-libs-1:3.5.5-4.el10_2.alma.1.x86_64 1781198955 6859443 55a68734c6b72664e2db0b23b8e08fba installed
+DEBUG util.py:463:  coreutils-9.5-8.el10_2.x86_64 1782813009 5714506 93f6821202efd06a3fd8ecbf3c6482d5 installed
+DEBUG util.py:463:  ca-certificates-2025.2.80_v9.0.305-102.el10_1.noarch 1763138081 2801276 4b30227dd6f330ba2eb8ae02782a9bb8 installed
+DEBUG util.py:463:  authselect-libs-1.5.2-1.el10.x86_64 1770798670 923738 9addac1a819e858a3780c20b8da701d9 installed
+DEBUG util.py:463:  gzip-1.13-3.el10.x86_64 1734373206 398194 fc73eee8049d45bacb8517b196ed18ac installed
+DEBUG util.py:463:  cracklib-2.9.11-8.el10.x86_64 1734033833 244461 2f6715332bbe19883333fd39c9a31582 installed
+DEBUG util.py:463:  cracklib-dicts-2.9.11-8.el10.x86_64 1734033833 9815811 bd870a60599f9426447adc7a9faf8f52 installed
+DEBUG util.py:463:  libpwquality-1.4.5-12.el10.x86_64 1733850696 427194 223aadacddba621f470dba11c8db4608 installed
+DEBUG util.py:463:  libevent-2.1.12-16.el10.x86_64 1733846367 916490 898e141e01bec1ba693e2207ae5582c6 installed
+DEBUG util.py:463:  rpm-sequoia-1.10.1.1-2.el10.x86_64 1772782143 2652128 fbffbdf6aa9449b861c0a230cff5cb2d installed
+DEBUG util.py:463:  zip-3.0-45.el10.x86_64 1755248080 726153 5d8186bb574c45c88e8ec5fa628a8ccc installed
+DEBUG util.py:463:  cyrus-sasl-lib-2.1.28-30.el10_2.x86_64 1780480452 732566 5c39a979e0999d6a1a959af8c1b53c65 installed
+DEBUG util.py:463:  openldap-2.6.10-1.el10.x86_64 1768893284 518947 f73de235116a332b8151c06b1d97baa4 installed
+DEBUG util.py:463:  gdbm-1:1.23-12.el10_0.x86_64 1747265717 471407 b71416d44d94b2d2048116823e379b5a installed
+DEBUG util.py:463:  pam-1.6.1-9.el10.x86_64 1765406635 1848795 412d3cec164cfc05600c79e14ff8b664 installed
+DEBUG util.py:463:  libfdisk-2.40.2-18.el10.x86_64 1772616096 379794 c4e80c019a5b5f4dea9d7cb6afd8114d installed
+DEBUG util.py:463:  libxml2-2.12.5-10.el10_2.1.x86_64 1782266581 1795467 4c1da83777f28b9cd1d40ba9ef2fdb1c installed
+DEBUG util.py:463:  libarchive-3.7.7-8.el10_1.x86_64 1776411334 961194 b44a06846e6b5f7ba6b208ffdebf907d installed
+DEBUG util.py:463:  bzip2-1.0.8-25.el10.x86_64 1739793622 97597 55d60e7810482fc02ab74f791a351d26 installed
+DEBUG util.py:463:  sqlite-libs-3.46.1-5.el10_1.x86_64 1761561983 1571640 f7fda595ba487c8bdbb4715b829fef70 installed
+DEBUG util.py:463:  rpm-libs-4.19.1.1-23.el10.alma.1.x86_64 1771363610 743168 6a52c3922745396512162d8f8ff9503d installed
+DEBUG util.py:463:  ed-1.20-5.el10.x86_64 1734036248 149356 d9eb1a6d7f626f07d1d0f6a30b128954 installed
+DEBUG util.py:463:  patch-2.7.6-26.el10.x86_64 1734153030 264738 3d2b21419101e47f0569feb6397afa13 installed
+DEBUG util.py:463:  elfutils-default-yama-scope-0.194-2.el10_2.noarch 1775581598 1810 08b8a59eb1b4c083483773709df71370 installed
+DEBUG util.py:463:  cpio-2.15-3.el10.x86_64 1734031711 1150520 6e8723c0f97dddd46fec04164c75aef5 installed
+DEBUG util.py:463:  diffutils-3.10-8.el10.x86_64 1734026420 1657323 dc3dac84318bee7257be6e4c75b23dfc installed
+DEBUG util.py:463:  json-c-0.18-3.el10.x86_64 1734112482 84530 7f07c17b20a78ac0ca779af334183450 installed
+DEBUG util.py:463:  keyutils-libs-1.6.3-5.el10.x86_64 1737113140 54083 6b7336de3157e5ae0d8f939406a398c5 installed
+DEBUG util.py:463:  libbrotli-1.1.0-7.el10_1.x86_64 1768929854 865506 6b8ecad63cdef444fc9968b92b4e184b installed
+DEBUG util.py:463:  libcbor-0.11.0-3.el10.x86_64 1733899191 75535 4cf35242ab457fd6ed8fd00110801117 installed
+DEBUG util.py:463:  libfido2-1.14.0-7.el10.x86_64 1733850183 243356 eac10361b07f61d6c4c23716b8fa33c5 installed
+DEBUG util.py:463:  libcom_err-1.47.1-5.el10.x86_64 1764176485 68697 22e0715bd20c2f4c06149098c0241f64 installed
+DEBUG util.py:463:  libgomp-14.3.1-4.4.el10.alma.2.x86_64 1772111059 540232 43b07124c74b8dc9311f7f408491ba71 installed
+DEBUG util.py:463:  libnghttp2-1.68.0-3.el10_2.1.x86_64 1779304727 165820 fa43e2c63a13db3b55987c0ab52c64cc installed
+DEBUG util.py:463:  libpkgconf-2.1.0-3.el10.x86_64 1734172741 75857 d3e54138803062f6f74c4a9139f37417 installed
+DEBUG util.py:463:  pkgconf-2.1.0-3.el10.x86_64 1734172741 84218 8e8af64d19b84206c62f00c8de3fbc02 installed
+DEBUG util.py:463:  pkgconf-pkg-config-2.1.0-3.el10.x86_64 1734172741 989 7fbf860ab46a0492211d93b79e803ff4 installed
+DEBUG util.py:463:  libverto-0.3.2-10.el10.x86_64 1733855959 30045 c9cd9352f564335e0e2d8f6004da1136 installed
+DEBUG util.py:463:  krb5-libs-1.21.3-10.el10_2.x86_64 1779304413 2408813 26e6d21bf129f0ab5858f96b4b4433cc installed
+DEBUG util.py:463:  libssh-0.12.0-2.el10.x86_64 1771605846 699580 0ae591364874a59f81d2984c24ca1fbe installed
+DEBUG util.py:463:  libcurl-8.12.1-4.el10.x86_64 1765399612 854238 dd697f1dd4c218ea8aad2fcb4373c102 installed
+DEBUG util.py:463:  elfutils-libs-0.194-2.el10_2.x86_64 1775585482 707101 d487b8127b96f405386b7b813d98053a installed
+DEBUG util.py:463:  elfutils-debuginfod-client-0.194-2.el10_2.x86_64 1775585482 81778 d2aff5c3a4cdf80f82f9e34fa6c7e11c installed
+DEBUG util.py:463:  binutils-gold-2.41-63.el10.alma.1.x86_64 1772647031 2173395 1c74a43982f690aa99be054d90265583 installed
+DEBUG util.py:463:  binutils-2.41-63.el10.alma.1.x86_64 1772647031 27832332 65a8a9a9d5e571fb5170229067ae54c3 installed
+DEBUG util.py:463:  elfutils-0.194-2.el10_2.x86_64 1775585482 3107374 23b79ea75326fa699fe66687d1561ad1 installed
+DEBUG util.py:463:  gdb-minimal-16.3-3.el10.x86_64 1772788942 13747873 0ea7581662cc1d272df31df5ca960cd8 installed
+DEBUG util.py:463:  debugedit-5.1-8.el10.x86_64 1751369369 205423 c3bb1528e3aee250c550fbd312ff8929 installed
+DEBUG util.py:463:  rpm-build-libs-4.19.1.1-23.el10.alma.1.x86_64 1771363610 203064 1359199297954946078204ed793d0615 installed
+DEBUG util.py:463:  curl-8.12.1-4.el10.x86_64 1765399612 465464 5776c14b84410c31bad67ecf9df3c156 installed
+DEBUG util.py:463:  rpm-4.19.1.1-23.el10.alma.1.x86_64 1771363610 3101173 d454f8f37bad0380e5019b37606672e7 installed
+DEBUG util.py:463:  efi-srpm-macros-6-6.el10.alma.1.noarch 1734440590 41092 3931350959da64ff1bdcee011ec80a8a installed
+DEBUG util.py:463:  lua-srpm-macros-1-15.el10.noarch 1734113187 1367 2ad13a3b28040716f2b0736f0272accf installed
+DEBUG util.py:463:  fonts-srpm-macros-1:2.0.5-18.el10.noarch 1734052831 57184 eedab5b50fdbbf1b8cdc83c4f2c8edf5 installed
+DEBUG util.py:463:  forge-srpm-macros-0.4.0-6.el10.noarch 1736711136 39882 4c15475beb02fc0b79b32a58f7d20579 installed
+DEBUG util.py:463:  go-srpm-macros-3.8.0-1.el10.noarch 1758831879 61920 56a516ceb50cd6184f68973acdbc8c88 installed
+DEBUG util.py:463:  python-srpm-macros-3.12-11.el10.noarch 1766738522 52640 ed3e009071f89e0fd2bd068362d38b8d installed
+DEBUG util.py:463:  redhat-rpm-config-295-1.el10.alma.1.noarch 1769677355 184132 247322332d4a0c339e7d7dd15d662b3e installed
+DEBUG util.py:463:  rpm-build-4.19.1.1-23.el10.alma.1.x86_64 1771363610 176869 3a7ab00bec7f2ef09f84a8a1dd890a46 installed
+DEBUG util.py:463:  pyproject-srpm-macros-1.18.5-1.el10.noarch 1765414691 1945 a784e0acfabe5f523509ba0680db13b7 installed
+DEBUG util.py:463:  R-srpm-macros-1.3.7-1.el10_2.noarch 1774883158 3626 2c06b509d423024fa0b3262a32777304 installed
+DEBUG util.py:463:  epel-rpm-macros-10-7.el10_2.noarch 1774638734 762 cafc889f3d479a4e91e2362b8e55a3d7 installed
+DEBUG util.py:463:  util-linux-2.40.2-18.el10.x86_64 1772616096 3884882 b67e1e4b9d20c59891580e1de1c8b0ab installed
+DEBUG util.py:463:  authselect-1.5.2-1.el10.x86_64 1770798670 218168 6a6e40809aebb521b907e0b36fd6c44f installed
+DEBUG util.py:463:  which-2.21-44.el10_0.x86_64 1754377721 85738 e17d66bb6c0f405d416b6a1fdb2c38c4 installed
+DEBUG util.py:463:  info-7.1-6.el10.x86_64 1738055043 363386 f0fc5c8361ad821282ebbae9e05dd70d installed
+DEBUG util.py:463:  expat-2.7.3-1.el10_2.1.x86_64 1780486663 316343 8cce881cb4ae3f71f7799bf834a8a4c5 installed
+DEBUG util.py:463:  libmpc-1.3.1-7.el10.x86_64 1733854663 168484 974a12be4299281204bdba89e52d83a3 installed
+DEBUG util.py:463:  cmake-filesystem-3.31.8-1.el10.x86_64 1758819681 0 5c37d44753f4da0d8badead22f73cede installed
+DEBUG util.py:463:  make-1:4.4.1-9.el10.x86_64 1734102928 1880255 c5424038bde4ef1359a4b6ea67274eb0 installed
+DEBUG util.py:463:  cpp-14.3.1-4.4.el10.alma.2.x86_64 1772111059 40432232 46189c8d845987648be365e28a5b5925 installed
+DEBUG util.py:463:  libuv-1:1.52.1-1.el10_2.x86_64 1782266223 591901 4345e3912c33d34336a561c8704b1b81 installed
+DEBUG util.py:463:  kernel-headers-6.12.0-211.29.1.el10_2.x86_64 1782911200 7073191 e822ea77f1150b35ccf848d471261e4a installed
+DEBUG util.py:463:  libxcrypt-devel-4.4.36-10.el10.x86_64 1733850318 30995 9efc5effc6f98a939a173e6687c552ee installed
+DEBUG util.py:463:  glibc-devel-2.39-126.el10_2.alma.1.x86_64 1782812216 2350907 9481b7e9ecb594818400a6edba4a10ae installed
+DEBUG util.py:463:  gcc-14.3.1-4.4.el10.alma.2.x86_64 1772111059 114806563 99c171da548ae0ffafa581d7e3c83f6b installed
+DEBUG util.py:463:  annobin-docs-13.02-2.el10.noarch 1768993423 101309 87498c68a624c2ba6cee5aabd2a7e790 installed
+DEBUG util.py:463:  vim-filesystem-2:9.1.083-9.el10_2.4.noarch 1782265698 40 ba0ad18c7507a58db158fc4a656acbc1 installed
+DEBUG util.py:463:  tzdata-2026b-1.el10.alma.1.noarch 1779809556 1922383 db81f37862a1948f1999cf4fcc367342 installed
+DEBUG util.py:463:  python3-pip-wheel-23.3.2-11.el10_2.noarch 1779526936 1600309 2612b96b21296e07955b51fcd954d692 installed
+DEBUG util.py:463:  openssh-9.9p1-23.el10_2.alma.1.x86_64 1779266629 1444051 761eaff3a25f2dfa838b678c0ff9829a installed
+DEBUG util.py:463:  mpdecimal-2.5.1-12.el10.x86_64 1734111731 205591 5412ab404cf934ac34ed27b29e7db6c9 installed
+DEBUG util.py:463:  python3-3.12.13-2.el10_2.x86_64 1779288220 32130 e6d8d2eeba39105718ac8bedadb4d744 installed
+DEBUG util.py:463:  python3-libs-3.12.13-2.el10_2.x86_64 1779288220 43678703 094cf50c132bfc9750a66d1174fbf945 installed
+DEBUG util.py:463:  cmake-rpm-macros-3.31.8-1.el10.noarch 1758825699 7714 e65f5f38a3ad3a7947f4381b32f44f9a installed
+DEBUG util.py:463:  libedit-3.1-52.20230828cvs.el10.x86_64 1733854520 249638 4c66ca1733d38d5e18c2f98f62a2510a installed
+DEBUG util.py:463:  openssh-clients-9.9p1-23.el10_2.alma.1.x86_64 1779266629 2728174 09c72cae35a578d151f283059407d3cf installed
+DEBUG util.py:463:  less-661-3.el10.x86_64 1734103679 410421 073140e48cf118aa4601cadcccd1a53c installed
+DEBUG util.py:463:  emacs-filesystem-1:29.4-12.el10.noarch 1750853408 0 ef670299232b45b4603983dc53c49a3f installed
+DEBUG util.py:463:  cmake-3.31.8-1.el10.x86_64 1758819681 36232012 ad009fe0c97979cf7cf0ca5c98661968 installed
+DEBUG util.py:463:  cmake-data-3.31.8-1.el10.noarch 1758825699 8885653 b05ce36b3b82a065d56dfc16d2503d29 installed
+DEBUG util.py:463:  git-core-2.52.0-1.el10.x86_64 1769721551 25100873 789558be04bdb26f8cf556c098287ec9 installed
+DEBUG util.py:463:  annobin-plugin-gcc-13.02-2.el10.x86_64 1768993506 1033576 dd6e5f28895620dc0622c592275c7553 installed
+DEBUG util.py:463:  gcc-plugin-annobin-14.3.1-4.4.el10.alma.2.x86_64 1772111059 57994 d30ecda1c4b11d36b0bccabe8db0c94f installed
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/lib/mock/alma+epel-10-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG backend.py:821:  Copying packages to result dir
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/alma+epel-10-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/alma+epel-10-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:185:  kill orphans in chroot /var/lib/mock/alma+epel-10-x86_64-bootstrap/root
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0
+DEBUG util.py:636:  child environment: None
+DEBUG util.py:558:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/alma+epel-10-x86_64-bootstrap/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:610:  Child return code was: 0

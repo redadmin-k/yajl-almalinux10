@@ -1,0 +1,22 @@
+2026-07-02 22:09:47,258 - Mock Version: 6.7
+2026-07-02 22:09:47,262 - Start(bootstrap): chroot init
+2026-07-02 22:09:47,273 - Start(bootstrap): cleaning package manager metadata
+2026-07-02 22:09:47,273 - Finish(bootstrap): cleaning package manager metadata
+2026-07-02 22:09:47,528 - Finish(bootstrap): chroot init
+2026-07-02 22:09:47,529 - Start: chroot init
+2026-07-02 22:09:47,535 - Start: unpacking root cache
+2026-07-02 22:09:48,386 - Finish: unpacking root cache
+2026-07-02 22:09:48,389 - Start: cleaning package manager metadata
+2026-07-02 22:09:48,392 - Finish: cleaning package manager metadata
+2026-07-02 22:09:48,705 - Start: dnf4 update
+2026-07-02 22:09:56,360 - Finish: dnf4 update
+2026-07-02 22:09:56,635 - Finish: chroot init
+2026-07-02 22:09:56,635 - Start: build phase for yajl-2.1.0-25.el10.src.rpm
+2026-07-02 22:09:56,635 - Start: build setup for yajl-2.1.0-25.el10.src.rpm
+2026-07-02 22:10:28,566 - Finish: build setup for yajl-2.1.0-25.el10.src.rpm
+2026-07-02 22:10:28,566 - Start: rpmbuild yajl-2.1.0-25.el10.src.rpm
+2026-07-02 22:10:28,566 - Start: Outputting list of installed packages
+2026-07-02 22:10:28,803 - Finish: Outputting list of installed packages
+2026-07-02 22:10:41,932 - Finish: rpmbuild yajl-2.1.0-25.el10.src.rpm
+2026-07-02 22:10:41,933 - Finish: build phase for yajl-2.1.0-25.el10.src.rpm
+2026-07-02 22:10:41,935 - Finish: run
